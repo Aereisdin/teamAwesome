@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+body {
+    font-family: 'Dosis';
+}
+
+.box {
+    justify-content: center;
+    background-color: orange;
+}
+
+.card {
+    color: white;
+    background-color: orange;
+    border: none;
+    margin: 1%;
+    text-align: center;
+}
+
+.card-divider {
+    background-color: orange;
+    text-align: center;
+}
+
+
+img {
+    align-self: center;
+    height: 200px;
+    width: 100px;
+}
+
+
+
+
