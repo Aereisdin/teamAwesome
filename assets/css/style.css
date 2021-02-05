@@ -69,12 +69,13 @@ a:link {
 
 .heroHyper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../images/herolanding.jpg);
+    url(../images/htmlHero.jpg);
   position: relative;
   height: 600px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   top: -25px;
   z-index: -1;
 }
@@ -133,7 +134,7 @@ a:link {
 
 .languagePresent {
   height: fit-content;
-  background-color: rgb(56, 209, 212);
+  background-color: rgb(212, 87, 56);
   padding-top: 25px;
   padding-bottom: 50px;
   margin-top: -25px;
@@ -190,7 +191,7 @@ a:link {
 
 .languagePresent {
   justify-content: center;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #df7d65, #eb6c6c);
 }
 
 .card {
