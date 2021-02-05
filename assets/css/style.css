@@ -80,12 +80,11 @@ a:visited {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/htmlHero.jpg);
   position: relative;
-  height: 600px;
+  height: 850px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  top: -25px;
+  top: -10%;
   z-index: -1;
 }
 .heroTextHyper {
@@ -102,11 +101,11 @@ a:visited {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/herocss.jpg);
   position: relative;
-  height: 600px;
+  height: 850px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  top: -25px;
+  top: -10%;
   z-index: -1;
 }
 .heroTextCss {
@@ -143,28 +142,28 @@ a:visited {
 .htmlPresent {
     height: fit-content;
     background-color: rgb(234, 50, 47);
-    padding-top: 25px;
+    padding-top: 45px;
     padding-bottom: 50px;
-    margin-top: -25px;
-    margin-bottom: 25px; 
+    margin-top: -135px;
+    margin-bottom: 25px;
 }
 .languagePresent {
   height: fit-content;
   background-color: rgb(56, 209, 212);
   padding-top: 25px;
   padding-bottom: 50px;
-  margin-top: -100px;
+  margin-top: -135px;
   margin-bottom: 25px;
 }
 .langBlurb {
   color: white;
   text-align: center;
-  font-size: 16pt;
-  font-weight: bold;
+  font-size: 22pt;
+  
 }
 .showcase {
-  height: fit;
-  padding: 10%, 10%, 10%, 10%;
+  height: 55%;
+  margin: 10%, 10%, 10%, 10%;
   color: white;
   font-size: 22pt;
 }
