@@ -119,3 +119,39 @@ a:link {
 	color: white;
 	font-size: 36pt;
 }
+
+/* HTML/CSS/JS buttons ----------------------------------------------- */
+
+.languagePresent {
+	justify-content: center;
+	background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.card {
+	color: white;
+	border: none;
+	border-radius: 1rem;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
+}
+
+img {
+	align-self: center;
+	height: 150px;
+	width: 100px;
+}
+
+.HTML {
+	background: linear-gradient(to right, #dd9676, #e44d32);
+}
+
+.CSS {
+	background: linear-gradient(to right, #8f8dfc, #4340e4);
+}
+
+.JAVASCRIPT {
+	background: linear-gradient(to right, #f4f74e, #c9c60c);
+}
+
+/* ------------------------------------------------------------------ */
