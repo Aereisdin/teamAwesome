@@ -14,7 +14,7 @@ body {
     color: white
 }
 
-a:link {
+.javascript-info a, .nav a:link {
     color: white;
     background-color: #222;
 }
@@ -70,7 +70,7 @@ a:link {
     padding-top: 25px;
     padding-bottom: 50px;
     margin-top: -25px;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 .langBlurb {
     color: white;
@@ -131,7 +131,7 @@ a:link {
 }
 
 .card {
-    color: white;
+    color: black;
     border: none;
     border-radius: 1rem;
     margin: 1%;
@@ -164,3 +164,28 @@ img {
 
 /* ------------------------------------------------------------------ */
 
+
+
+
+
+
+
+
+/* Javascript info (javascript.html) -------------------------------- */
+
+.javascript-info {
+    background: linear-gradient(to right, #f4f74e, #c9c60c);
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
+    text-align: center;
+    padding-inline: 10px;
+
+}
+
+.basics-card, .functions-card, .arrays-card {
+    height: 18rem;
+    width: 18rem;
+}
+
+
+
+/* ------------------------------------------------------------------ */
