@@ -5,22 +5,18 @@ body {
 
 .box {
     justify-content: center;
-    background-color: orange;
+    background: linear-gradient(to right, #e75b1a, #fc5c00);
+
 }
 
 .card {
     color: white;
-    background-color: orange;
     border: none;
+    border-radius: 1rem;
     margin: 1%;
     text-align: center;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
 }
-
-.card-divider {
-    background-color: orange;
-    text-align: center;
-}
-
 
 img {
     align-self: center;
@@ -29,5 +25,18 @@ img {
 }
 
 
+.HTML {
+    background: linear-gradient(to right, #e2885e, #e44d32);
 
+}
+
+.CSS {
+    background: linear-gradient(to right, #e2885e, #4340e4);
+
+}
+
+.JAVASCRIPT {
+    background: linear-gradient(to right, #e2885e, #eeea0e);
+
+}
 
