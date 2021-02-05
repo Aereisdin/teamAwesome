@@ -20,23 +20,23 @@ body {
 
 img {
     align-self: center;
-    height: 200px;
+    height: 150px;
     width: 100px;
 }
 
 
 .HTML {
-    background: linear-gradient(to right, #e2885e, #e44d32);
+    background: linear-gradient(to right, #dd9676, #e44d32);
 
 }
 
 .CSS {
-    background: linear-gradient(to right, #e2885e, #4340e4);
+    background: linear-gradient(to right, #8f8dfc, #4340e4);
 
 }
 
 .JAVASCRIPT {
-    background: linear-gradient(to right, #e2885e, #eeea0e);
+    background: linear-gradient(to right, #f4f74e, #c9c60c);
 
 }
 
