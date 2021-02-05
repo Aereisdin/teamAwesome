@@ -163,7 +163,7 @@ a:visited {
   font-weight: bold;
 }
 .showcase {
-  height: fit-content;
+  height: fit;
   padding: 10%, 10%, 10%, 10%;
   color: white;
   font-size: 22pt;
