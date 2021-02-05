@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+/* HTML/CSS/JS buttons ----------------------------------------------- */
 body {
     font-family: 'Dosis';
 }
 
-.box {
+.grid-x {
     justify-content: center;
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 
@@ -22,6 +23,7 @@ img {
     align-self: center;
     height: 150px;
     width: 100px;
+
 }
 
 
@@ -39,4 +41,6 @@ img {
     background: linear-gradient(to right, #f4f74e, #c9c60c);
 
 }
+
+/* ------------------------------------------------------------------ */
 
