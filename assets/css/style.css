@@ -64,7 +64,7 @@ a:visited {
 }
 .heroTextIndex {
   font-family: "Dosis", sans-serif;
-  text-align: center;
+  text-align: left;
   position: absolute;
   font-weight: bold;
   top: 50%;
@@ -72,7 +72,12 @@ a:visited {
   transform: translate(-50%, -50%);
   color: white;
 }
-
+.line1 {
+  font-size: 36pt;
+}
+.line2 {
+  font-size: 24pt;
+}
 .heroHyper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/htmlHero.jpg);
@@ -203,7 +208,9 @@ a:visited {
 /* HTML/CSS/JS buttons ----------------------------------------------- */
 
 .card {
-  color: white;
+  color: #222;
+  font-weight: 700;
+  font-size: 20pt;
   border: none;
   border-radius: 1rem;
   margin: 1%;
