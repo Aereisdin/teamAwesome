@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap); 
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap); 
 body, html {
     height: 100%;
 }
@@ -66,7 +66,7 @@ a:link {
   }
 .languagePresent {
     height: fit-content;
-    background-color: orange;
+    background-color: rgb(56, 209, 212);
     padding-top: 25px;
     padding-bottom: 50px;
     margin-top: -25px;
@@ -89,4 +89,32 @@ a:link {
 }
 .showPic {
     padding: 10%, 10%, 10%, 10%;
+}
+.catchy {
+    background-color: rgb(203, 61, 194);
+    color: white;
+    height: 20%;
+    padding: 25px;
+}
+.catchyB {
+    background-color: rgb(137, 46, 131);
+}
+.example {
+    color: white;
+    height: 550px;
+    font-size: 24pt;
+    font-weight: bold;
+}
+.demoSpace {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    height: 400px;
+    background-color:transparent;
+}
+.codeLang {
+    background-color: rgb(56, 209, 212);
+    height: 300px;
+    color: white;
+    font-size: 36pt;
 }
