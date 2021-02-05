@@ -24,7 +24,4 @@ GitHub.com <--- for reference
 ## Future Possible Additions
 
 Jobs <-- Indeed (or other) Api
-<<<<<<< HEAD
-=======
 Team Awesome is awesome!
->>>>>>> main
