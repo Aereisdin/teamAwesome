@@ -203,7 +203,7 @@ a:link {
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
 }
 
-img {
+.langImg {
   align-self: center;
   height: 150px;
   width: 100px;
