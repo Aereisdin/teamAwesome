@@ -80,7 +80,6 @@ a:link {
   z-index: -1;
 }
 .heroTextHyper {
-<<<<<<< HEAD
   font-family: "Dosis", sans-serif;
   text-align: center;
   position: absolute;
@@ -92,7 +91,7 @@ a:link {
 }
 .heroCss {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../images/herolanding.jpg);
+    url(../images/herocss.jpg);
   position: relative;
   height: 600px;
   width: 100%;
@@ -100,26 +99,6 @@ a:link {
   background-repeat: no-repeat;
   top: -25px;
   z-index: -1;
-=======
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
-    position: absolute;
-    font-weight: bold;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-  .heroCss {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/herocss.jpg);
-    position: relative;
-    height: 600px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    top: -25px;
-    z-index: -1;
->>>>>>> fdf2222ee7da04df2d8729f79e06690ac75784bb
 }
 .heroTextCss {
   font-family: "Dosis", sans-serif;
