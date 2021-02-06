@@ -117,6 +117,9 @@ a:visited {
   transform: translate(-50%, -50%);
   color: white;
 }
+.cssVids {
+	height: 250px;
+}
 .heroJS {
   background-image: url(../images/javascript-background-image.png);
   position: relative;
