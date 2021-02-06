@@ -121,7 +121,7 @@ a:visited {
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	top: -10%;
+	top: -20%;
 	z-index: -1;
 }
 .heroTextJs {
@@ -258,26 +258,18 @@ a:visited {
 	font-weight: bold;
 	color: #5552f8;
 }
-
-/* ------------------------------------------------------------------ */
-
-
-
-
-
-
-
-
-/* Javascript info (javascript.html) -------------------------------- */
-
 .basics-div, .arrays-div, .functions-div {
     background: linear-gradient(to right, #f4f74e, #c9c60c);
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
     text-align: center;
+	height: fit-content;
     padding-inline: 10px;
-
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
-
+.basics-div {
+	margin-top: -25px;
+}
 .basics-card, .functions-card, .arrays-card {
     height: 18rem;
     width: 18rem;
