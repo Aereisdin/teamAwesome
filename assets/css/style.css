@@ -221,6 +221,14 @@ a:visited {
   color: white;
   font-size: 36pt;
 }
+.hyperLang {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(56, 209, 212);
+  height: 300px;
+  color: white;
+  font-size: 22pt;
+}
 .cardJS {
   color: black;
   border: none;
