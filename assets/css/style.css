@@ -14,14 +14,20 @@ body {
   font-weight: 700;
   color: white;
 }
-
-a:link {
-  color: white;
+.nav a:link {
   background-color: #222;
 }
+a:link {
+  color: white;
+
+}
+a:visited {
+    color: white;
+}
+.nav a:hover {
+    background-color: rgb(56, 209, 212);
+}
 .navbutton {
-  border: white 1px solid;
-  border-radius: 5px;
   padding: 2px;
   margin-top: 2px;
 }
@@ -29,54 +35,56 @@ a:link {
   font-size: 25pt;
   font-weight: 900;
 }
-.box {
-  width: 100%;
-  height: 45px;
-  background: #232323;
-}
 .curve {
-  background-color: black;
+  background-color: #222;
   width: 100%;
-  height: 50px;
+  height: 150px;
   border-bottom-left-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
-  background: #232323;
+  background: #222;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.36);
   z-index: 1;
 }
 
 .heroIndex {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url(../images/herolanding.jpg);
+    url(../images/heroindex.jpg);
   position: relative;
-  height: 600px;
+  height: 850px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  top: -25px;
+  top: -10%;
   z-index: -1;
 }
+
 .heroTextIndex {
   font-family: "Dosis", sans-serif;
-  text-align: center;
+  text-align: left;
   position: absolute;
   font-weight: bold;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  text-shadow: 6px 6px 20px #222;
+  z-index: 1;
 }
-
+.line1 {
+  font-size: 42pt;
+}
+.line2 {
+  font-size: 32pt;
+}
 .heroHyper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/htmlHero.jpg);
   position: relative;
-  height: 600px;
+  height: 850px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  top: -25px;
+  top: -10%;
   z-index: -1;
 }
 .heroTextHyper {
@@ -93,11 +101,11 @@ a:link {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url(../images/herocss.jpg);
   position: relative;
-  height: 600px;
+  height: 850px;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  top: -25px;
+  top: -10%;
   z-index: -1;
 }
 .heroTextCss {
@@ -131,26 +139,36 @@ a:link {
   transform: translate(-50%, -50%);
   color: white;
 }
-
+.htmlPresent {
+    height: fit-content;
+    background-color: rgb(234, 50, 47);
+    padding-top: 45px;
+    padding-bottom: 50px;
+    margin-top: -135px;
+    margin-bottom: 25px;
+}
 .languagePresent {
   height: fit-content;
-  background-color: rgb(212, 87, 56);
+  background-color: rgb(56, 209, 212);
   padding-top: 25px;
   padding-bottom: 50px;
-  margin-top: -25px;
+  margin-top: -135px;
   margin-bottom: 25px;
 }
 .langBlurb {
   color: white;
   text-align: center;
-  font-size: 16pt;
-  font-weight: bold;
+  font-size: 22pt;
+  
 }
 .showcase {
-  height: 75%;
-  padding: 10%, 10%, 10%, 10%;
+  height: 55%;
+  margin: 10%, 10%, 10%, 10%;
   color: white;
-  font-size: 18pt;
+  font-size: 22pt;
+}
+.H2 {
+  font-size: 28pt;
 }
 .showWord {
   padding: 10%, 10%, 10%, 10%;
@@ -161,6 +179,7 @@ a:link {
 .catchy {
   background-color: rgb(203, 61, 194);
   color: white;
+  font-size: 22pt;
   height: fit-content;
   padding: 25px;
 }
@@ -169,7 +188,7 @@ a:link {
 }
 .example {
   color: white;
-  height: 550px;
+  height: fit-content;
   font-size: 24pt;
   font-weight: bold;
 }
@@ -189,13 +208,10 @@ a:link {
 
 /* HTML/CSS/JS buttons ----------------------------------------------- */
 
-.languagePresent {
-  justify-content: center;
-  background: linear-gradient(to right top, #df7d65, #eb6c6c);
-}
-
 .card {
-  color: white;
+  color: #222;
+  font-weight: 700;
+  font-size: 20pt;
   border: none;
   border-radius: 1rem;
   margin: 1%;
@@ -203,10 +219,10 @@ a:link {
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
 }
 
-img {
+.langImg {
   align-self: center;
   height: 150px;
-  width: 100px;
+  width: auto;
 }
 
 .HTML {
