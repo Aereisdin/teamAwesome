@@ -117,11 +117,11 @@ a:visited {
 .heroJs {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/herolanding.jpg);
 	position: relative;
-	height: 600px;
+	height: 850px;
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	top: -25px;
+	top: -10%;
 	z-index: -1;
 }
 .heroTextJs {
