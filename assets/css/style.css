@@ -114,14 +114,15 @@ a:visited {
 	transform: translate(-50%, -50%);
 	color: white;
 }
-.heroJs {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/herolanding.jpg);
+.heroJS {
+	background-image:  url(../images/javascript-background-image.png);
 	position: relative;
 	height: 850px;
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	top: -20%;
+	margin-bottom: -20%;
 	z-index: -1;
 }
 .heroTextJs {
@@ -155,7 +156,7 @@ a:visited {
     background-color: rgb(56, 209, 212);
     padding-top: 25px;
     padding-bottom: 50px;
-    margin-top: -25px;
+    /* margin-top: px; */
 }
 .languagePresent {
 	height: fit-content;
@@ -278,19 +279,8 @@ a:visited {
 
 .card-title {
     background-color: #eae7ec;
-
 }
 
-.heroJS {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/javascript-background-image.png);
-    position: relative;
-    height: 700px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    top: -25px;
-    z-index: -1;
-}
 
 
 
