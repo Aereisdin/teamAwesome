@@ -241,4 +241,10 @@ a:visited {
 	background: linear-gradient(to right, #f4f74e, #c9c60c);
 }
 
+/* Changes color and weight of reference links under "additional references" section on hover */
+.referenceList a:hover {
+	font-weight: bold;
+	color: #5552f8;
+}
+
 /* ------------------------------------------------------------------ */
