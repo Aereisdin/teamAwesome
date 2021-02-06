@@ -142,7 +142,6 @@ a:visited {
 	margin-top: -135px;
 	margin-bottom: 25px;
 }
-
 .cssPresent {
 	height: fit-content;
 	background: linear-gradient(to right, #8f8dfc, #4340e4);
@@ -151,7 +150,13 @@ a:visited {
 	margin-top: -135px;
 	margin-bottom: 25px;
 }
-
+.languagePresentJS {
+    height: fit-content;
+    background-color: rgb(56, 209, 212);
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-top: -25px;
+}
 .languagePresent {
 	height: fit-content;
 	background-color: rgb(56, 209, 212);
@@ -212,9 +217,14 @@ a:visited {
 	color: white;
 	font-size: 36pt;
 }
-
-/* HTML/CSS/JS buttons ----------------------------------------------- */
-
+.cardJS {
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    margin: 1%;
+    text-align: center;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
+}
 .card {
 	color: #222;
 	font-weight: 700;
@@ -225,7 +235,6 @@ a:visited {
 	text-align: center;
 	box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
 }
-
 .langImg {
 	align-self: center;
 	height: 150px;
@@ -251,3 +260,46 @@ a:visited {
 }
 
 /* ------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+/* Javascript info (javascript.html) -------------------------------- */
+
+.basics-div, .arrays-div, .functions-div {
+    background: linear-gradient(to right, #f4f74e, #c9c60c);
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
+    text-align: center;
+    padding-inline: 10px;
+
+}
+
+.basics-card, .functions-card, .arrays-card {
+    height: 18rem;
+    width: 18rem;
+    background: linear-gradient(to right, #d2bbee, #e202d7);
+}
+
+.card-title {
+    background-color: #eae7ec;
+
+}
+
+.heroJS {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/javascript-background-image.png);
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -25px;
+    z-index: -1;
+}
+
+
+
+
