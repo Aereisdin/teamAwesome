@@ -145,7 +145,7 @@ a:visited {
 
 .cssPresent {
 	height: fit-content;
-	background-color: #4340e4;
+	background: linear-gradient(to right, #8f8dfc, #4340e4);
 	padding-top: 45px;
 	padding-bottom: 50px;
 	margin-top: -135px;
