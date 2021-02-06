@@ -186,6 +186,16 @@ img {
     width: 18rem;
 }
 
+.heroJS {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("http://getwallpapers.com/wallpaper/full/c/6/9/357986.jpg");
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -25px;
+    z-index: -1;
+}
 
 
 /* ------------------------------------------------------------------ */
