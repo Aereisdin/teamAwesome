@@ -13,7 +13,7 @@ $(document).ready(function() {
     }
     if(visited == 0){welcome()}
     else if(visited == 1){welcomeBack()}
-    else {again()}
+    else if(visited == 2){again()}
 
     $(".close-button").click(function() {
        console.log("Hmmm it is listening");
