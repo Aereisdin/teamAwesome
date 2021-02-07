@@ -1,4 +1,24 @@
 $(document).ready(function() {
-var visitor = localStorage.getItem("visitor");
-if(visitor === null){$("#welcomeModal").foundation("reveal","open")}
+    var visited =localStorage.getItem("visited");
+    if(visited === null){visited = 0}
+    
+    function welcomeBack(){
+        $("#welcomeBackModal").foundation("toggle")
+    }
+    function welcome(){
+        $("#welcomeModal").foundation("toggle")
+    }
+    function again(){
+        $("#againModal").foundation("toggle")
+    }
+    if(visited == 0){welcome()}
+    else if(visited == 1){welcomeBack()}
+    else {again()}
+
+    $(".close-button").click(function() {
+       console.log("Hmmm it is listening");
+       visited++;
+        localStorage.setItem("visited", visited)
+        })
+    console.log(visited);
 });
