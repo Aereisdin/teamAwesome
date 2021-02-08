@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
 
 </head>
 <body>
     <nav class="top-bar align-top nav curve">
         <div class="top-bar-left nav">
-            <div class="top-bar-title">Web Dev Redemption</div>
+            <div class="top-bar-title"><a href="index.html"><div class="navbutton">Web Dev Redemption</div></a></div>
         </div>
         <div name="top" class="top-bar-right nav">   
             <ul class="vertical medium-horizontal menu nav">
-                <li><a href="index.html"><div class="navbutton">Home</div></a></li>
-                <li><a href="hypertext.html"><div class="navbutton">Hypertext</div></a></li>
+                <li><a href="hypertext.html"><div class="navbutton">HTML</div></a></li>
                 <li><a href="css.html"><div class="navbutton">CSS</div></a></li>
                 <li><a href="javascript.html"><div class="navbutton">JavaScript</div></a></li>
             </ul>
@@ -30,8 +30,8 @@
             <p class="line2">Here to get you started</p>
         </div>
     </div>
-    <div class="grid-x align-top align-spaced languagePresent">
-        <div class="card small-3 HTML cell">
+    <div class="grid-x align-top align-spaced languagePresentIndex">
+        <div class="card medium-3 HTML cell">
             <br>
             <a href="hypertext.html"><img src="./assets/images/htmllogo.png" alt="html" id="htm-img" class="langImg"></a>
             <br>
@@ -41,7 +41,7 @@
             <br>
         </div>
 
-        <div class="card small-3 CSS cell">
+        <div class="card medium-3 CSS cell">
             <br>
             <a href="css.html"><img src="./assets/images/csslogo.png" alt="css" id="css-img" class="langImg"></a>
             <br>
@@ -51,7 +51,7 @@
             <br>
         </div>
 
-        <div class="card small-3 JAVASCRIPT cell">
+        <div class="card medium-3 JAVASCRIPT cell">
             <br>
             <a href="javascript.html"><img src="./assets/images/jslogo.png" alt="javascript" id="javascript-img" class="langImg"></a>
             <br>
@@ -62,9 +62,37 @@
         </div>
 
     </div>
-    <div class="grid-x align-middle align-spaced showcase">
-        <div class="cell showPic small-5"><img class="placeholderFront" src="./assets/images/placeholder.jpg"></div>
-        <div class="cell showWord small-5"><p class="H2">Getting started...</p><p>We all know that in the beginning the hardest part is getting started. Doing the laundry, the dishes, raking the leaves. Web development is a bit different than the everyday. It really is hard to get started. Where are the resources? How am I suppose to understand what they are talking about? I am not even sure how to phrase this in a question...</p><p> This page was born out of the frustration of some humble bootcamp attentees. We wanted to make a launch point for those of you out there looking for a quick reference point to some great resources that will get you going in the right direction.</p> </div>
+    <div class="showcaseIndex">
+
+        <ul class="tabs" data-responsive-accordion-tabs="accordion medium-tabs" id="tabs">
+            <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Visual Code Studio</a></li>
+            <li class="tabs-title"><a href="#panel2"><i class="fab fa-github"></i> GitHub</a></li>
+            <li class="tabs-title"><a href="#panel3">Fun Extras</a></li>
+          </ul>
+          
+          <div class="tabs-content" data-tabs-content="tabs">
+            <div class="tabs-panel text-center is-active" id="panel1">
+                <p class="H2">Visual Code Studio</p>
+                <p class="text-left">When you are getting started you need something that can display code, help you write it and keep you organized. For us, that means using Visual Code Studio. If you choose to use this program which works for Mac and Windows, we have also included some program extension recommendations.</p>
+                <a href="https://code.visualstudio.com/"><p class="H2">Visual Studio Code</p><img src="./assets/images/vsc.png" alt="visual studio code" id="vsc"></a>
+                <p class="H2">Here are some program extensions we recommend:</p>
+                <ul class="vsc-extensions text-left">
+                    <li>Open in Browser - Allows you to open your code into a browser of your choice</li>
+                    <li>Live Server - Lets you run code while working on it.</li>
+                    <li>Live Sass Compiler - When you start using Sass it will convert it to CSS</li>
+                </ul>
+                <br>
+                <p>As always, file extensions are a matter of user taste and preference. Put yourself out there and try things out.</p>
+            </div>
+            <div class="tabs-panel" id="panel2">
+                <p class="H2 text-center">GitHub</p>
+                <p class="text-left">Once you start down the path of becoming a Dev you will need a place to share your work and collaborate with others. GitHub is essential for joining the community of code.</p>
+            </div>
+            <div class="tabs-panel" id="panel3">
+                <p>three</p>
+                 <p>Check me out! I'm a super cool Tab panel with text content!</p>
+            </div>
+          </div>
     </div>
     <div class="grid-x align-spaced catchy">
         <div class="cell medium-8 align-self-middle"><p class="H2">We Support Your Journey to Success</p><p>The links that are listed in the navigation bar will lead you off to resources for each of the individual languages we cover here. Hyper Text Markup Language, Cascading Style Sheets, and JavaScript. Within these pages you will find the collection of helpful information each of us has collected to try to make your journey an easier one. There are some cool Codepen demonstrations found throughout that will hopefully inspire you as well.</p></div>
@@ -80,7 +108,7 @@
            
         </div>
     </div>
-    <div class="reveal text-center" id="welcomeModal" data-reveal>
+    <div class="reveal text-center" id="welcomeModal" data-reveal data-v-offset=250px>
         <p class="H2">Awesome. You made it!</p>
         <p>We were hoping you would find this place.</p>
         <p>We made this just for you, to help you become epic<i class="fas fa-feather"></i></p>
@@ -88,7 +116,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
     </div>
-    <div class="reveal text-center" id="welcomeBackModal" data-reveal>
+    <div class="reveal text-center" id="welcomeBackModal" data-reveal data-v-offset=250px>
         <p class="H2">You came back!</p>
         <p>Did you know that we are super excited you are here?</p>
         <p>Don't worry, we won't harrass you too much<i class="fas fa-feather"></i></p>
@@ -96,7 +124,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
     </div>
-    <div class="reveal text-center" id="againModal" data-reveal>
+    <div class="reveal text-center" id="againModal" data-reveal data-v-offset=250px>
         <p class="H2">Again?</p>
         <p>Are we going to have to start charging rent?</p>
         <p>Don't worry! It will help support us starving Developers<i class="fas fa-feather"></i></p>
