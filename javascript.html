@@ -23,14 +23,6 @@
             </ul>
         </div>
     </nav> 
- 
-    <!-- Callout which shows some helpful tip -->
-    <div class="callout warning" data-closable>
-        <p id="basics-callout cell">Did you know? All major web browsers have a built-in JavaScript engine that executes the code on the user's device.</p>
-        <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
 
     <div class="heroJS">
         <div class="heroTextJs">
@@ -96,22 +88,48 @@
         </a>
         <!-- Basics info -->
         <div class="card-section">
-            <li><strong>Variables</strong> - Different ways to create a variable</li>
-            <code>let = myVariable</code>
-            <code>var = myVariable</code>
-            <code>const = myVariable</code>
+            <li><strong>Variables</strong> - Different ways to create a variable
+                <a id="basics1-answer-button" class="button success small basics1" style="margin: 10px;" onclick="ShowAndHide('basics1-answer')">Show Answer</a>
+                <br>
+                <span class="answers" id="basics1-answer" style="display: none;">
+                    <code>let = myVariable</code>
+                    <code>var = myVariable</code>
+                    <code>const = myVariable</code>
 
-            <li><strong>Operators</strong> - Use these to manipulate and compare data</li>
-            <code>+ - * /</code>
-            <code>= == ===</code>
-            <code>! != !==</code>
+                </span>
+            </li>
 
-            <li><strong>If-Else</strong> - Conditional statements</li>
-            <code>if (condition) { write your code here; }</code> <br>
-            <code>else { otherwise do this code; }</code>
+            <li><strong>Operators</strong> - Use these to manipulate and compare data
+                <a id="basics2-answer-button" class="button success small basics2" style="margin: 10px;" onclick="ShowAndHide('basics2-answer')">Show Answer</a>
+                <br>
+                <span class="answers" id="basics2-answer" style="display: none;">
+                    <code>+ - * /</code>
+                    <code>= == ===</code>
+                    <code>! != !==</code>
+                </span>
+            </li>
+
+
+            <li><strong>If-Else</strong> - Conditional statements
+                <a id="basics3-answer-button" class="button success small basics3" style="margin: 10px;" onclick="ShowAndHide('basics3-answer')">Show Answer</a>
+                <br>
+                <span class="answers" id="basics3-answer" style="display: none;">
+                    <code>if (condition) { write your code here; }</code> <br>
+                    <code>else { otherwise do this code; }</code>
+                </span>
+            </li>
+            
         </div>
 
+        <!-- Callout which shows some helpful tip -->
+        <div class="callout warning cell" data-closable>
+            <p id="basics-callout cell">Did you know? All major web browsers have a built-in JavaScript engine that executes the code on the user's device.</p>
+            <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
     </div>
+
 
     <!-- Arrays section -->
     <div class="grid-x align-spaced arrays-div">
@@ -120,17 +138,20 @@
             <code>var array = [ "hello", "world", 1, true, "Team Awesome is the best!" ]</code>
             <li>What is the size of this array?
                 <a id="answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('answer1')">Show Answer</a>
-                <span id="answer1" style="display: none;">The size of this array is <strong>5</strong></span>
+                <br>
+                <span class="answers" id="answer1" style="display: none;">The size of this array is <strong>5</strong></span>
             </li>
 
             <li>What does <code>array[1]</code> contain?
                 <a id="answer2-button" class="button success small answer2" style="margin: 10px;" onclick="ShowAndHide('answer2')">Show Answer</a>
-                <span id="answer2" style="display: none;">It contains the string <strong>"world"</strong></span>
+                <br>
+                <span class="answers" id="answer2" style="display: none;">It contains the string <strong>"world"</strong></span>
             </li>
 
             <li>What the most common way to iterate through this array?
                 <a id="answer3-button" class="button success small answer3" style="margin: 10px;" onclick="ShowAndHide('answer3')">Show Answer</a>
-                <span id="answer3" style="display: none;">Using a <strong>for-loop</strong></span>
+                <br>
+                <span class="answers" id="answer3" style="display: none;">Using a <strong>for-loop</strong></span>
             </li>
 
         </div>
@@ -164,13 +185,33 @@
                     <p>JavaScript Functions</p>
                 </div>
                 <div class="card-section functions-section">
-                    <p id="functions-text">Functions allow programmers to reuse code!</p>
+                    <p id="functions-text">It's good practice to have a function for each task rather than multiple tasks in one function!</p>
                 </div>
             </div>
         </a>
         <!-- Functions info -->
         <div class="card-section">
-            <li>What is scope?</li>
+            <li>What is scope?
+                <a id="functions-answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('functions-answer1')">Show Answer</a>
+                <br>
+                <span class="answers" id="functions-answer1" style="display: none;">
+                    The variables and other things defined inside the function are inside their own separate <strong>scope</strong>.
+                    <br>
+                    Click <a href="https://www.tutorialsteacher.com/javascript/scope-in-javascript" target="_blank">here</a> for more information about scope. 
+                </span>
+            </li>
+
+            <li>Why do we use functions?
+                <a id="functions-answer2-button" class="button success small answer2" style="margin: 10px;" onclick="ShowAndHide('functions-answer2')">Show Answer</a>
+                <br>
+                <span class="answers" id="functions-answer2" style="display: none;">We use functions when we need to use the same code multiple times, it makes a programmer's life so much easier.</span>
+            </li>
+
+            <li>What is a parameter?
+                <a id="functions-answer3-button" class="button success small answer3" style="margin: 10px;" onclick="ShowAndHide('functions-answer3')">Show Answer</a>
+                <br>
+                <span class="answers" id="functions-answer3" style="display: none;">Parameters act as variables inside the method. Information can be passed to methods as parameter.</span>
+            </li>
         </div>
 
 
