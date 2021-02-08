@@ -75,7 +75,7 @@
                 <p class="H2">Visual Code Studio</p>
                 <p class="text-left">When you are getting started you need something that can display code, help you write it and keep you organized. For us, that means using Visual Code Studio. If you choose to use this program which works for Mac and Windows, we have also included some program extension recommendations.</p>
                 <a href="https://code.visualstudio.com/"><p class="H2">Visual Studio Code</p><img src="./assets/images/vsc.png" alt="visual studio code" id="vsc"></a>
-                <p class="H2">Here are some program extensions we recommend:</p>
+                <p class="H2">Here are some program extensions we recommend once you have it installed:</p>
                 <ul class="vsc-extensions text-left">
                     <li>Open in Browser - Allows you to open your code into a browser of your choice</li>
                     <li>Live Server - Lets you run code while working on it.</li>
@@ -84,19 +84,35 @@
                 <br>
                 <p>As always, file extensions are a matter of user taste and preference. Put yourself out there and try things out.</p>
             </div>
-            <div class="tabs-panel" id="panel2">
+            <div class="tabs-panel text-center github" id="panel2">
                 <p class="H2 text-center">GitHub</p>
                 <p class="text-left">Once you start down the path of becoming a Dev you will need a place to share your work and collaborate with others. GitHub is essential for joining the community of code.</p>
+                <br>
+                <p class="text-center"><iframe id="githubvid" width="560" height="315" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                <br>
+                <p>When you use GitHub you will be using a terminal (which is built in) on Mac. On Windows you are going to be using Git Bash (which you will have to install). This is how you will get your content into GitHub or get it from there to your computer to work on. Here are some guides to get you all setup and going. It can seem complicated and overwhelming but its much simpler after setup.</p>
+                <ul class="githubLinks text-left">
+                    <li><a href="https://docs.github.com/en/github/getting-started-with-github/set-up-git">Setup Guide</a> - This will link your computer to your GitHub</li>
+                    <li><a href="https://education.github.com/git-cheat-sheet-education.pdf">Cheat Sheet for Git Commands</a> - This is useful to have around</li>
+                    <li><a href="https://git-scm.com/">git</a> - What is this "git" we keep referring to?</li>
+                </ul>
             </div>
-            <div class="tabs-panel" id="panel3">
-                <p>three</p>
-                 <p>Check me out! I'm a super cool Tab panel with text content!</p>
+            <div class="tabs-panel text-center" id="panel3">
+                <p class="H2">Are you looking for ideas and inspiration?</p>
+                 <p>Sometimes its not just about the programs, code or documentation. Sometimes we just need to know that we are not alone in this journey, that someone else has struggled and they too overcame. That we can be awesome because someone before us had a bigger hill they climbed to get to where we want to go.</p>
+                 <br>
+                 <p>This section is a compilation of all the things that can make this journey just a little bit more fun and inspiring.</p>
+                 <ul class="funStuff text-left">
+                     <li><a href="https://www.codenewbie.org/" class="H2">Code Newbie</a> - Code Newbie is a great show with interviews that share various stories across a wide range of subjects</li>
+                     <li><a href="https://codepen.io/trending" class="H2">Codepen</a> - Codepen is a place where you can see all the fun visual possibilities with code. I go here to be inspired in my projects.</li>
+
+                </ul>
             </div>
           </div>
     </div>
     <div class="grid-x align-spaced catchy">
-        <div class="cell medium-8 align-self-middle"><p class="H2">We Support Your Journey to Success</p><p>The links that are listed in the navigation bar will lead you off to resources for each of the individual languages we cover here. Hyper Text Markup Language, Cascading Style Sheets, and JavaScript. Within these pages you will find the collection of helpful information each of us has collected to try to make your journey an easier one. There are some cool Codepen demonstrations found throughout that will hopefully inspire you as well.</p></div>
-        <div class="call medium-2 align-self-bottom"><button type="button" class="catchyB button"><a href="#top">Top <i class="fas fa-arrow-up"></i></a></button></div>
+        <div class="cell medium-8 align-self-middle"><p class="H2">We Support Your Journey to Success</p><p>We all have to start somewhere. We know that it can be overwhelming but keep your chin up. The more you challenge yourself to grow, the more you will. In the beginning its hard to know how much you are progressing but given a bit of time will give you some perspective on what you have learned so far. Pretty soon you will look back and it will seem so easy when at the time it seemed difficult. The world needs more people from various backgrounds, walks of life and perspectives to make the internet a truer reflection of the world. To make the internet a better place. Hang in there! We are all rooting for you!</p></div>
+        <div class="call medium-2 align-self-bottom"><button type="button" class="catchyB button" data-open="inspireModal">Click Me</button></div>
     </div>
     <div class="grid-x align-center align-middle example"><p class="H2">Example</p>
         <div class="cell medium-12">&nbsp;</div>
@@ -128,6 +144,12 @@
         <p class="H2">Again?</p>
         <p>Are we going to have to start charging rent?</p>
         <p>Don't worry! It will help support us starving Developers<i class="fas fa-feather"></i></p>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="tiny reveal text-center" id="inspireModal" data-reveal data-v-offset=250px>
+        <p style="color: hotpink;"><i class="far fa-heart fa-5x fa-spin"></i></p>
         <button class="close-button" data-close aria-label="Close modal" type="button">
           <span aria-hidden="true">&times;</span>
         </button>

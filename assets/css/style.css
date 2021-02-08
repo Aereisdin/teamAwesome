@@ -228,8 +228,38 @@ a:visited {
   list-style-position: inside;
   padding-left: 10%;
 }
+.githubLinks li {
+  background-color: #444;
+  list-style-position: inside;
+  padding-left: 10%;
+}
+.githubLinks li a:link {
+  text-decoration: underline;
+}
+
+.githubLinks li a:hover {
+  background-color: teal;
+}
+.funStuff li {
+  background-color: #444;
+  list-style-position: inside;
+  padding-left: 10%;
+}
+.funStuff li a:link {
+  text-decoration: underline;
+}
+.funStuff li a:hover {
+  background-color: teal;
+}
 .placeholderFront {
   margin-bottom: 25px;
+}
+#inspireModal {
+  border-radius: 25px;
+  width: 200px;
+  height: fit-content;
+  background: inherit;
+  filter: blur(1px);
 }
 .H2 {
   font-size: 28pt;
