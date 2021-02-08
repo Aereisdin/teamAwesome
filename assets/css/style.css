@@ -212,6 +212,13 @@
     background-color: #222;
     border: none;
   }
+  .tabs li a:link {
+      font-size: 24pt;
+      border-radius: 10px;
+  }
+  .tabs li a:hover{
+      color: tomato;
+  }
   .tabs-title {
     background-color: #4340e4;
   }
