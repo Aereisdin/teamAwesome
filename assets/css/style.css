@@ -189,6 +189,9 @@ a:visited {
 .showPic {
 	padding: 10%, 10%, 10%, 10%;
 }
+.showPicJs {
+	height: fit-content;
+}
 .catchy {
 	background-color: rgb(203, 61, 194);
 	color: white;
