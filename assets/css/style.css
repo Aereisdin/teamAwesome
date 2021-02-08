@@ -281,6 +281,16 @@ a:visited {
     background-color: #eae7ec;
 }
 
+/* font for the "show answers" text */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+.answers {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 12pt;
+	font-weight: lighter;
+	border-style: ridge;
+}
+
 
 
 
