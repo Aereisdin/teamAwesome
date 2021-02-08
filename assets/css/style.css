@@ -291,6 +291,16 @@ a:visited {
 	border-style: ridge;
 }
 
+.javascript-resources a:hover {
+	font-weight: bold;
+	color: #f4f74e;
+}
+
+.functions-section a:hover {
+	font-weight: bold;
+	color: #e202d7;
+}
+
 
 
 
