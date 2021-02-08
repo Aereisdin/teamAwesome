@@ -23,21 +23,13 @@
             </ul>
         </div>
     </nav> 
- 
-    <!-- Callout which shows some helpful tip -->
-    <div class="callout warning" data-closable>
-        <p id="basics-callout cell">Did you know? All major web browsers have a built-in JavaScript engine that executes the code on the user's device.</p>
-        <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
 
     <div class="heroJS">
         <div class="heroTextJs">
             <p class="line1"><strong>WELCOME!</strong></p>
             <p class="line2">
                 <br>
-                So you want to learn to learn JavaScript?
+                Interested in JavaScript?
                 <br>
                 You came to the right place!
                 <br>
@@ -95,45 +87,74 @@
             </div>
         </a>
         <!-- Basics info -->
-        <div class="card-section">
-            <li><strong>Variables</strong> - Different ways to create a variable</li>
-            <code>let = myVariable</code>
-            <code>var = myVariable</code>
-            <code>const = myVariable</code>
+        <section class="card-section basics-section">
+            <br>
+            <dt><strong>Variables</strong> - Different ways to create a variable
+                <a id="basics1-answer-button" class="button success small basics1" style="margin: 10px;" onclick="ShowAndHide('basics1-answer')">Show Answer</a>
+                <br>
+                <span class="answers" id="basics1-answer" style="display: none;">
+                    <code>let = myVariable</code>
+                    <code>var = myVariable</code>
+                    <code>const = myVariable</code>
+                </span>
+            </dt>
 
-            <li><strong>Operators</strong> - Use these to manipulate and compare data</li>
-            <code>+ - * /</code>
-            <code>= == ===</code>
-            <code>! != !==</code>
+            <dt><strong>Operators</strong> - Use these to manipulate and compare data
+                <a id="basics2-answer-button" class="button success small basics2" style="margin: 10px;" onclick="ShowAndHide('basics2-answer')">Show Answer</a>
+                <br>
+                <span class="answers" id="basics2-answer" style="display: none;">
+                    <code>+ - * /</code>
+                    <code>= == ===</code>
+                    <code>! != !==</code>
+                </span>
+            </dt>
 
-            <li><strong>If-Else</strong> - Conditional statements</li>
-            <code>if (condition) { write your code here; }</code> <br>
-            <code>else { otherwise do this code; }</code>
-        </div>
 
+            <dt><strong>If-Else</strong> - Conditional statements
+                <a id="basics3-answer-button" class="button success small basics3" style="margin: 10px;" onclick="ShowAndHide('basics3-answer')">Show Answer</a>
+                <br>
+                <span class="answers" id="basics3-answer" style="display: none;">
+                    <code>if (condition) { write your code here; }</code> <br>
+                    <code>else { otherwise do this code; }</code>
+                </span>
+            </dt>
+
+        </section>
+
+        <!-- Callout which shows some helpful tip -->
+        <!-- <div class="callout warning small cell" data-closable>
+            <p id="basics-callout cell">Did you know? All major web browsers have a built-in JavaScript engine that executes the code on the user's device.</p>
+            <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div> -->
     </div>
+
 
     <!-- Arrays section -->
     <div class="grid-x align-spaced arrays-div">
         <!-- Arrays info -->
-        <div class="card-section arrays-section">
-            <code>var array = [ "hello", "world", 1, true, "Team Awesome is the best!" ]</code>
-            <li>What is the size of this array?
+        <section class="card-section arrays-section">
+            <code>var array = [ "hello", "world", 1, true, "Team Awesome is the best!" ]</code><br><br>
+            <dt>What is the size of this array?
                 <a id="answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('answer1')">Show Answer</a>
-                <span id="answer1" style="display: none;">The size of this array is <strong>5</strong></span>
-            </li>
+                <br>
+                <span class="answers" id="answer1" style="display: none;">The size of this array is <strong>5</strong></span>
+            </dt>
 
-            <li>What does <code>array[1]</code> contain?
+            <dt>What does <code>array[1]</code> contain?
                 <a id="answer2-button" class="button success small answer2" style="margin: 10px;" onclick="ShowAndHide('answer2')">Show Answer</a>
-                <span id="answer2" style="display: none;">It contains the string <strong>"world"</strong></span>
-            </li>
+                <br>
+                <span class="answers" id="answer2" style="display: none;">It contains the string <strong>"world"</strong></span>
+            </dt>
 
-            <li>What the most common way to iterate through this array?
+            <dt>What the most common way to iterate through this array?
                 <a id="answer3-button" class="button success small answer3" style="margin: 10px;" onclick="ShowAndHide('answer3')">Show Answer</a>
-                <span id="answer3" style="display: none;">Using a <strong>for-loop</strong></span>
-            </li>
+                <br>
+                <span class="answers" id="answer3" style="display: none;">Using a <strong>for-loop</strong></span>
+            </dt>
 
-        </div>
+        </section>
         <!-- Arrays card -->
         <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays" target="_blank">
             <div class="card medium-3 cell align-right arrays-card">
@@ -147,12 +168,12 @@
         </a>
 
         <!-- Callout which shows a tip about Arrays -->
-        <div class="callout warning small cell" data-closable>
+        <!-- <div class="callout warning small cell" data-closable>
             <p id="basics-callout">Do you know there is more than one way that you can access the data in an array?</p>
             <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
                 <span aria-hidden="true">&times;</span>
             </button>
-        </div>
+        </div> -->
     </div>
 
     <!-- Functions section -->
@@ -164,21 +185,54 @@
                     <p>JavaScript Functions</p>
                 </div>
                 <div class="card-section functions-section">
-                    <p id="functions-text">Functions are methods! They are FUN!</p>
+                    <p id="functions-text">It's good practice to have a function for each task rather than multiple tasks in one function!</p>
                 </div>
             </div>
         </a>
         <!-- Functions info -->
-        <div class="card-section">
-            <p id="function-info">functions info</p>
-        </div>
+        <section class="card-section functions-section">
+            <br>
+            <dt>What is scope?
+                <a id="functions-answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('functions-answer1')">Show Answer</a>
+                <br>
+                <span class="answers" id="functions-answer1" style="display: none;">
+                    The variables and other things defined inside the function are inside their own separate <strong>scope</strong>.
+                    <br>
+                    Click <a href="https://www.tutorialsteacher.com/javascript/scope-in-javascript" target="_blank">here</a> for more information about scope. 
+                </span>
+            </dt>
 
+            <dt>Why do we use functions?
+                <a id="functions-answer2-button" class="button success small answer2" style="margin: 10px;" onclick="ShowAndHide('functions-answer2')">Show Answer</a>
+                <br>
+                <span class="answers" id="functions-answer2" style="display: none;">We use functions when we need to use the same code multiple times, it makes a programmer's life so much easier.</span>
+            </dt>
 
+            <dt>What is a parameter?
+                <a id="functions-answer3-button" class="button success small answer3" style="margin: 10px;" onclick="ShowAndHide('functions-answer3')">Show Answer</a>
+                <br>
+                <span class="answers" id="functions-answer3" style="display: none;">Parameters act as variables inside the method. Information can be passed to methods as parameter.</span>
+            </dt>
+        </section>
     </div>
 
-    <div class="grid-x align-middle align-spaced showcase">
-        <div class="cell showPic small-5"><img class="placeholderFront" src="./assets/images/placeholder.jpg"></div>
-        <div class="cell showWord small-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+    <!-- Additional JavaScript resources -->
+    <div class="grid-x align-spaced showcase">
+        <div class="card cell showPicJs medium-5 align-center"><img class="placeholderFrontJs" src="./assets/images/javascript-resources-pic.jpg"></div>
+        <section class="cell showWord medium-3 javascript-resources">
+            <br>
+            <p class="H2">Additional Resources</p>
+            <li>
+                <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" title="CodeAcademy">Introduction to JavaScript</a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank"  title="MDN Web Docs">Full JavaScript Guide</a>
+            </li>
+            <li>
+                <a href="https://jsbooks.revolunet.com/" target="_blank" title="Free JavaScript Books">Books on JavaScript (free)</a>
+            </li>
+            <br>
+        </section>
     </div>
     <div class="grid-x align-spaced catchy">
         <div class="cell medium-8 align-self-middle"><h2>Catchy Heading to Entice!!!</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut metus eleifend, auctor neque at, tincidunt ipsum. Integer blandit vestibulum erat, ac fringilla nibh sodales ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut metus eleifend, auctor neque at, tincidunt ipsum. Integer blandit vestibulum erat, ac fringilla nibh sodales ac.</p></div>
@@ -199,6 +253,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/347692fd4f.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-<script src="./assets/javascript/script.js"></script>
+<script src="./assets/javascript/javascript.js"></script>
 </body>
 </html>

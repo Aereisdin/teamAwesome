@@ -195,6 +195,9 @@ a:visited {
 .showPic {
   padding: 10%, 10%, 10%, 10%;
 }
+.showPicJs {
+	height: fit-content;
+}
 .catchy {
   background-color: rgb(203, 61, 194);
   color: white;
@@ -290,3 +293,27 @@ a:visited {
 .card-title {
   background-color: #eae7ec;
 }
+
+/* font for the "show answers" text */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+.answers {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 12pt;
+	font-weight: lighter;
+	border-style: ridge;
+}
+
+.javascript-resources a:hover {
+	font-weight: bold;
+	color: #f4f74e;
+}
+
+.functions-section a:hover {
+	font-weight: bold;
+	color: #e202d7;
+}
+
+
+
+
