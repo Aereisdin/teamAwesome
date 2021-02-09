@@ -9,16 +9,22 @@ fetch (requestURL)
     .then (function(data) {
         console.log(data);
         for (var i = 0; i < 4; i++) {
-            console.log("Snippet name is: " + data.tree[i].path)
-            
+
+            // This section creates a random number so that each time snippets are shown on the page, they are a random collection of snippets.
+            var max = (data.tree.length);
+            var min = 0;
+            var num = (Math.floor(Math.random() * (max - min)) + min);
+        
+            // This section creates the <li> and <a> elements that comprise the list of snippets and add the href to each entry. The random numbers generated above are used to determine the item from the snippet within the object. 
             var snippetName = document.createElement("li");
             var snippetAnchor = document.createElement("a");
 
-            snippetAnchor.textContent = data.tree[i].path;
-            snippetAnchor.setAttribute("href", ("https://github.com/30-seconds/30-seconds-of-css/tree/master/snippets/" + data.tree[i].path));
+            snippetAnchor.textContent = data.tree[num].path;
+            snippetAnchor.setAttribute("href", ("https://github.com/30-seconds/30-seconds-of-css/tree/master/snippets/" + data.tree[num].path));
             snippetAnchor.setAttribute("target", "_blank");
             snippetName.appendChild(snippetAnchor);
             snippetName.className += "referenceList";
             snippets.appendChild(snippetName);
+
         }
     })
