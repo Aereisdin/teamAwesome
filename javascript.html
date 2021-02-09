@@ -234,21 +234,17 @@
         </section>
     </div>
 
-    <div class="job-search">
-        <p class="H2">Job Search</p>
-        <div class="search-info">
-            <input id="job-description" type="text" placeholder="Job Description" style="width: 20%;">
-            <input id="location" type="text" placeholder="Location" style="width: 20%;">
-            <a class="button submit small" onclick="getSearchResults('job-description', 'location')">Search</a>
-        </div>
-        <div class="search-results">
-
-        </div>
-    </div>
-
+    <!-- Dog Image Generator -->
     <div class="grid-x align-spaced catchy">
-        <div class="cell medium-8 align-self-middle"><h2>Catchy Heading to Entice!!!</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut metus eleifend, auctor neque at, tincidunt ipsum. Integer blandit vestibulum erat, ac fringilla nibh sodales ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut metus eleifend, auctor neque at, tincidunt ipsum. Integer blandit vestibulum erat, ac fringilla nibh sodales ac.</p></div>
-        <div class="call medium-2 align-self-bottom"><button type="button" class="catchyB button">Button</button></div>
+        <div class="cell medium-8 align-self-middle">
+            <h2>Dog Image Generator</h2>
+            <img id="dogImg" hidden style="height: 500px; width: 400px;">
+        </div>
+        <div class="call medium-2 align-self-bottom">
+            <button type="button" class="catchyB button dogButtons" id="huskyButton" value="husky">Husky</button>
+            <button type="button" class="catchyB button dogButtons" id="houndButton" value="samoyed">Samoyed</button>
+            <button type="button" class="catchyB button dogButtons" id="houndButton" value="pomeranian">Pomeranian</button>
+        </div>
     </div>
 
     <footer class="grid-x text-center align-center align-middle codeLang">
