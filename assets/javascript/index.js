@@ -16,9 +16,8 @@ $(document).ready(function() {
     else if(visited == 2){again()}
 
     $(".close-button").click(function() {
-       console.log("Hmmm it is listening");
        visited++;
         localStorage.setItem("visited", visited)
         })
-    console.log(visited);
+   
 });
