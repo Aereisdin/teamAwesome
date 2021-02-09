@@ -12,18 +12,15 @@ const ShowAndHide = (buttonID) => {
     }
 };
 
-var githubSearchURL = "https://jobs.github.com/positions?";
-const getSearchResults = (jobID, locationID) => {
-    var jobSearched = document.getElementById(jobID).value;
-    var locationSearched = document.getElementById(locationID).value;
 
-    let response = fetch(githubSearchURL + "description=" + jobSearched + "&location=" + locationSearched,
-        {
-            mode: 'no-cors'
-        }
-    ).then(function (response) {
-        response.json();
-    });
+var request = require('request');
 
+let options = {
+    url: 'https://geek-jokes.sameerkumar.website/api?format=json',
+    method: 'GET'
+}
 
-};
+request(options, (err, response, body) => {
+    if(!err && response.statusCode == 200)
+        console.log(body)
+});
