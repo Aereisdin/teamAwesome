@@ -18,7 +18,7 @@ fetch (requestURL)
             snippetAnchor.setAttribute("href", ("https://github.com/30-seconds/30-seconds-of-css/tree/master/snippets/" + data.tree[i].path));
             snippetAnchor.setAttribute("target", "_blank");
             snippetName.appendChild(snippetAnchor);
+            snippetName.className += "referenceList";
             snippets.appendChild(snippetName);
-
         }
     })
