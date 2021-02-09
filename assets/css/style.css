@@ -212,6 +212,17 @@
     background-color: #222;
     border: none;
   }
+  .accordion-title {
+      background-color: #4340e4;
+      font-size: 20pt;
+  }
+  .accordion-title:hover {
+      background-color: tomato;
+  }
+  .accordion-content {
+      background-color: #444;
+      color: white;
+  }
   .tabs li a:link {
       font-size: 24pt;
       border-radius: 10px;
@@ -300,6 +311,10 @@
     border-color: white;
     border-width: 2px;
     border-style: solid;
+    height: 400px;
+    background-color: transparent;
+  }
+  .demoSpaceIndex {
     height: 400px;
     background-color: transparent;
   }
