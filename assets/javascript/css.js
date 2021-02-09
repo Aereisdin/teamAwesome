@@ -28,3 +28,15 @@ fetch (requestURL)
 
         }
     })
+
+// This function removes the existing snippets list.
+function removeSnippets() {
+    while (snippets.firstChild) {
+        snippets.removeChild(snippets.firstChild);
+    }}
+
+ // This is the event listener that allows the Shuffle button to display a new collection of snippets.
+ $("#shuffle").on("click", function() {
+    console.log("The button worked");
+    removeSnippets();
+ })   
