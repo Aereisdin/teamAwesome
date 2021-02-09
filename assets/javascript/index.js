@@ -22,12 +22,8 @@ $(document).ready(function() {
         })
     $(".joke").click( function() {
         $.get( "https://official-joke-api.appspot.com/random_joke", function( data ) {
-            console.log(data);
-            console.log(data.setup)
-            question = data.setup;
-            setup.textContent = question;
+            setup.textContent = data.setup;
             punchline.textContent = data.punchline;
-            punchline.attr("style", "visibility:hidden")
           });});
     
 });
