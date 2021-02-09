@@ -324,9 +324,19 @@
   }
   .codeLang {
     background-color: rgb(56, 209, 212);
-    height: 300px;
-    color: white;
-    font-size: 36pt;
+    height: 100px;
+    color: rgb(26, 125, 126);
+    font-size: 20pt;
+  }
+  .codeLang div {
+      font-size: 24pt;
+  }
+  .codeLang a:hover {
+      background-color: #4340e4;
+      color: white;
+  }
+  .codeLang a {
+      color: rgb(26, 125, 126);
   }
   .cardJS {
     color: black;
