@@ -12,3 +12,18 @@ const ShowAndHide = (buttonID) => {
     }
 };
 
+var githubSearchURL = "https://jobs.github.com/positions?";
+const getSearchResults = (jobID, locationID) => {
+    var jobSearched = document.getElementById(jobID).value;
+    var locationSearched = document.getElementById(locationID).value;
+
+    let response = fetch(githubSearchURL + "description=" + jobSearched + "&location=" + locationSearched,
+        {
+            mode: 'no-cors'
+        }
+    ).then(function (response) {
+        response.json();
+    });
+
+
+};

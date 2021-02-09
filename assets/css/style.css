@@ -361,3 +361,9 @@ a:visited {
 
 
 
+.job-search {
+	background-color: rgb(56, 209, 212);
+}
+.search-info {
+	display: flex;
+}
