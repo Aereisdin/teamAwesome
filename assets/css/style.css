@@ -413,3 +413,402 @@
       font-weight: bold;
       color: #e202d7;
   }
+=======
+	font-family: 'Dosis';
+	src: url('dosis-variablefont_wght-webfont.woff2') format('woff2'),
+		url('dosis-variablefont_wght-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+body,
+html {
+	height: 100%;
+}
+body {
+	background-color: #222;
+	font-size: 16pt;
+	font-family: "Dosis", sans-serif;
+	font-weight: 700;
+}
+.nav {
+	background-color: #222;
+	font-size: 25pt;
+	font-weight: 700;
+	color: white;
+}
+.nav a:link {
+	background-color: #222;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+.nav a:hover {
+	background-color: rgb(56, 209, 212);
+}
+.nav ul {
+	background-color: #222;
+}
+.navbutton {
+	padding: 2px;
+	margin-top: 2px;
+}
+.button {
+	font-size: 25pt;
+	font-weight: 900;
+}
+.curve {
+	background-color: #222;
+	width: 100%;
+	height: 150px;
+	border-bottom-left-radius: 50% 50%;
+	border-bottom-right-radius: 50% 50%;
+	background: #222;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.36);
+	z-index: 1;
+}
+
+.heroIndex {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/heroindex.jpg);
+	position: relative;
+	height: 850px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: -10%;
+	z-index: -1;
+}
+
+.heroTextIndex {
+	font-family: "Dosis", sans-serif;
+	text-align: left;
+	position: absolute;
+	font-weight: bold;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-shadow: 6px 6px 20px #222;
+	z-index: 1;
+}
+.line1 {
+	font-size: 42pt;
+}
+.line2 {
+	font-size: 32pt;
+}
+.heroHyper {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/htmlHero.jpg);
+	position: relative;
+	height: 850px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: -10%;
+	z-index: -1;
+}
+.heroTextHyper {
+	font-family: "Dosis", sans-serif;
+	text-align: center;
+	position: absolute;
+	font-weight: bold;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.heroCss {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/herocss.jpg);
+	position: relative;
+	height: 850px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: -10%;
+	z-index: -1;
+}
+.heroTextCss {
+	font-family: "Dosis", sans-serif;
+	text-align: center;
+	position: absolute;
+	font-weight: bold;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.cssVids {
+	height: 250px;
+}
+.heroJS {
+	background-image: url(../images/javascript-background-image.png);
+	position: relative;
+	height: 850px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	top: -20%;
+	margin-bottom: -20%;
+	z-index: -1;
+}
+.heroTextJs {
+	font-family: "Dosis", sans-serif;
+	text-align: center;
+	position: absolute;
+	font-weight: bold;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.htmlPresent {
+	height: fit-content;
+	background: linear-gradient(to right, rgb(235, 139, 102), rgb(240, 107, 67));
+	padding-top: 45px;
+	padding-bottom: 50px;
+	margin-top: -135px;
+	margin-bottom: 25px;
+}
+.cssPresent {
+	height: fit-content;
+	background: linear-gradient(to right, #8f8dfc, #4340e4);
+	padding-top: 45px;
+	padding-bottom: 50px;
+	margin-top: -135px;
+	margin-bottom: 25px;
+}
+.languagePresentIndex {
+	height: fit-content;
+	background-color: rgb(56, 209, 212);
+	padding-top: 25px;
+	padding-bottom: 50px;
+	margin-top: -135px;
+	margin-bottom: 25px;
+}
+.languagePresentJS {
+	height: fit-content;
+	background-color: rgb(56, 209, 212);
+	padding-top: 25px;
+	padding-bottom: 50px;
+	/* margin-top: px; */
+}
+
+.languagePresent {
+	height: fit-content;
+	background-color: rgb(56, 209, 212);
+	padding-top: 25px;
+	padding-bottom: 50px;
+	margin-top: -135px;
+	margin-bottom: 25px;
+}
+.langBlurb {
+	color: white;
+	text-align: center;
+	font-size: 22pt;
+}
+.showcase {
+	height: fit-content;
+	margin: 10%, 10%, 10%, 10%;
+	color: white;
+	font-size: 22pt;
+}
+.showcaseIndex {
+	height: fit-content;
+	color: white;
+	font-size: 22pt;
+	padding-bottom: 35px;
+}
+.showcaseIndex ul {
+	background-color: #222;
+	border: none;
+}
+.tabs li a:link {
+	font-size: 24pt;
+	border-radius: 10px;
+}
+.tabs li a:hover {
+	color: tomato;
+}
+.tabs-title {
+	background-color: #4340e4;
+}
+.tabs-panel {
+	background-color: #444;
+	color: white;
+}
+#vsc {
+	height: 600px;
+	width: auto;
+}
+.vsc-extensions li {
+	background-color: #444;
+	list-style-position: inside;
+	padding-left: 10%;
+}
+.githubLinks li {
+	background-color: #444;
+	list-style-position: inside;
+	padding-left: 10%;
+}
+.githubLinks li a:link {
+	text-decoration: underline;
+}
+
+.githubLinks li a:hover {
+	background-color: teal;
+}
+.funStuff li {
+	background-color: #444;
+	list-style-position: inside;
+	padding-left: 10%;
+}
+.funStuff li a:link {
+	text-decoration: underline;
+}
+.funStuff li a:hover {
+	background-color: teal;
+}
+.placeholderFront {
+	margin-bottom: 25px;
+}
+#inspireModal {
+	border-radius: 25px;
+	width: 200px;
+	height: fit-content;
+	background: inherit;
+	filter: blur(1px);
+}
+.H2 {
+	font-size: 28pt;
+}
+.showWord {
+	padding: 10%, 10%, 10%, 10%;
+}
+.showPic {
+	padding: 10%, 10%, 10%, 10%;
+}
+.showPicJs {
+	height: fit-content;
+}
+.catchy {
+	background-color: rgb(203, 61, 194);
+	color: white;
+	font-size: 22pt;
+	height: fit-content;
+	padding: 25px;
+}
+.catchyB {
+	background-color: rgb(137, 46, 131);
+}
+.example {
+	color: white;
+	height: fit-content;
+	font-size: 24pt;
+	font-weight: bold;
+}
+.demoSpace {
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	height: 400px;
+	background-color: transparent;
+}
+.codeLang {
+	background-color: rgb(56, 209, 212);
+	height: 300px;
+	color: white;
+	font-size: 36pt;
+}
+.cardJS {
+	color: black;
+	border: none;
+	border-radius: 1rem;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
+}
+.card {
+	color: #222;
+	font-weight: 700;
+	font-size: 20pt;
+	border: none;
+	border-radius: 1rem;
+	margin: 1%;
+	text-align: center;
+	box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
+}
+.langImg {
+	align-self: center;
+	height: 150px;
+	width: auto;
+}
+.HTML {
+	background: linear-gradient(to right, #dd9676, #e44d32);
+}
+
+.CSS {
+	background: linear-gradient(to right, #8f8dfc, #4340e4);
+}
+
+.JAVASCRIPT {
+	background: linear-gradient(to right, #f4f74e, #c9c60c);
+}
+
+/* Changes color and weight of reference links under "additional references" section on hover */
+.referenceList a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #5552f8;
+}
+
+.referenceList {
+	text-decoration: underline;
+}
+
+.basics-div,
+.arrays-div,
+.functions-div {
+	background: linear-gradient(to right, #f4f74e, #c9c60c);
+	box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.8);
+	text-align: center;
+	height: fit-content;
+	padding-inline: 10px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.basics-div {
+	margin-top: -25px;
+}
+.basics-card,
+.functions-card,
+.arrays-card {
+	height: 18rem;
+	width: 18rem;
+	background: linear-gradient(to right, #d2bbee, #e202d7);
+}
+
+.card-title {
+	background-color: #eae7ec;
+}
+
+/* font for the "show answers" text */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+.answers {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 12pt;
+	font-weight: lighter;
+	border-style: ridge;
+}
+
+.javascript-resources a:hover {
+	font-weight: bold;
+	color: #f4f74e;
+}
+
+.functions-section a:hover {
+	font-weight: bold;
+	color: #e202d7;
+}
