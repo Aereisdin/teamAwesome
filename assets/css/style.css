@@ -791,3 +791,9 @@ a:visited {
       font-weight: bold;
       color: #e202d7;
   }
+
+  .dogButtonsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }

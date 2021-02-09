@@ -30,6 +30,8 @@ const loadPicture = (dogType) => {
 
     // Image was hidden at first, get rid of it before loading a dog image
     randomDogImage.removeAttribute("hidden");
+    // Put it in a card by adding that class name
+    randomDogImage.classList.add("card", "small-3");
 
     let url = dogUrl + dogType + "/images/random"
 
