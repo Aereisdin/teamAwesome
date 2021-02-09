@@ -1,7 +1,8 @@
 $(document).ready(function() {
     var visited =localStorage.getItem("visited");
     if(visited === null){visited = 0}
-    
+    var punchline = document.querySelector(".punchline");
+    var setup = document.querySelector(".setup");
     function welcomeBack(){
         $("#welcomeBackModal").foundation("toggle")
     }
@@ -16,9 +17,13 @@ $(document).ready(function() {
     else if(visited == 2){again()}
 
     $(".close-button").click(function() {
-       console.log("Hmmm it is listening");
        visited++;
         localStorage.setItem("visited", visited)
         })
-    console.log(visited);
+    $(".joke").click( function() {
+        $.get( "https://official-joke-api.appspot.com/random_joke", function( data ) {
+            setup.textContent = data.setup;
+            punchline.textContent = data.punchline;
+          });});
+    
 });
