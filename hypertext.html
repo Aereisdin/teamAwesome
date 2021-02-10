@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HTML Dev Redemption</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+    integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
 <link rel="stylesheet" href="./assets/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-     
     <nav class="top-bar align-top nav curve">
         <div class="top-bar-left nav">
-            <div class="top-bar-title"><a href="index.html"><div class="navbutton">Web Dev Redemption</div></a></div>
+            <div class="top-bar-title"><ul class="menu"><li><a href="index.html"><div class="navbutton">Web Dev Redemption</div></a></li></ul></div>
         </div>
         <div name="top" class="top-bar-right nav">   
             <ul class="vertical medium-horizontal menu nav">
@@ -28,36 +28,52 @@
             <p class="line2">The structure of a website</p>
         </div>
     </div>
-    <div class="grid-x align-top align-spaced htmlPresent">
-        <div class="cell langBlurb medium-3 grid-y"><img class="langPic" src="./assets/images/div.png"><br><p class="H2">DIV</p><br>The "div" tag defines a division or section in an HTML document. This is the generic container for flow content. It has no effect on the content or the layout until it's styled in some way by using CSS</div>
-        <div class="cell langBlurb medium-3 grid-y"><img class="langPic" src="./assets/images/divClass.png"><br><p class="H2">CLASS</p><br>The "class" is an attribute which specifies one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name. In CSS, the class attribute is used using . symbol followed by class name.</div>
-        <div class="cell langBlurb medium-3 grid-y"><img class="langPic" src="./assets/images/divID.png"><br><p class="H2">ID</p><br>The "id" attribute is a unique identifier which is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element. In CSS, the id attribute is used using # symbol followed by id name.</div>
-    </div>
-    <div class="grid-x align-middle align-spaced showcase">
+    <main class="grid-container fluid">
+    <section class="grid-x align-top align-spaced htmlPresent">
+        <div class="cell langBlurb medium-3 grid-y"><img class="langPic" src="./assets/images/div.png"><br><p class="H2">DIV</p><br>
+            The "div" tag defines a division or section in an HTML document. This is the generic container for flow content. It has no effect on the content 
+            or the layout until it's styled in some way by using CSS</div>
+        <div class="cell langBlurb medium-3 grid-y"><img class="langPic" src="./assets/images/divClass.png"><br><p class="H2">CLASS</p><br>
+            The "class" is an attribute which specifies one or more class names for an HTML element. The class attribute can be used on any HTML element. 
+            The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name. In CSS, the class attribute 
+            is used using . symbol followed by class name.</div>
+        <div class="cell langBlurb medium-3 grid-y"><img class="langPic" src="./assets/images/divID.png"><br><p class="H2">ID</p><br>
+            The "id" attribute is a unique identifier which is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a 
+            unique element. In CSS, the id attribute is used using # symbol followed by id name.</div>
+    </section>
+    <section class="grid-x align-middle align-spaced showcase">
         <div class="cell showPic small-5"><img class="placeholderFront" src="./assets/images/placeholder.jpg"></div>
-        <div class="cell showWord small-5">Of course, there are more than enough elements and attributes, as well as styling, available. But discovering them on your own is quite the adventure. In the section below, we've provided some resources for further research and knowledge. </div>
-    </div>
-    <div class="grid-x align-spaced catchy">
-        <div class="cell medium-8 align-self-middle"><h2>Resources!!!</h2><li>https://www.w3schools.com/html/default.asp</li>
-                                                                          <li>https://html.com</li>
-                                                                          <li>https://www.codecademy.com/learn/learn-html</li></div>
-    </div>
-    <div class="grid-x align-center align-middle example"><p>Before you continue...</p>
-        <div class="cell medium-12">&nbsp;</div>
-        <div class="cell medium-5">&nbsp;</div>
-        <div class="cell medium-2 tidBit"><p>Always be learning and expanding your knowledge. Learn from mistakes and don't be hesitant to try new things. It may seem daunting at first, but you'll be a pro before you know it!</p></div>
-        <div class="cell medium-5">&nbsp;</div>
-        <div class="cell medium-12">&nbsp;</div>
-    </div>
+        <div class="cell showWord small-5">Of course, there are more than enough elements and attributes, as well as styling, available. But discovering them 
+            on your own is quite the adventure. In the section below, we've provided some resources for further research and knowledge.</div>
+    </section>
+    <section class="grid-x align-spaced catchy">
+        <div class="cell medium-8 align-self-middle">
+            <h2>Resources!!!</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp">https://www.w3schools.com/html/default.asp</a></li>
+                <li><a href="https://html.com">https://html.com</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-html">https://www.codecademy.com/learn/learn-html</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="grid-x align-center align-middle example"><p>Before you continue...</p><br>
+        <div class="cell medium-10 tidBit"><p>Always be learning and expanding your knowledge. Learn from mistakes and don't be hesitant to try new things. 
+            It may seem daunting at first, but you'll be a pro before you know it!</p></div><br>
+    </section>
     <footer class="grid-x text-center align-center align-middle codeLang">
         <div class="text-center small-12">This is a project that was completed by these up and coming Full Stack Engineers </div>
-         <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div><div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div><div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div><div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://kit.fontawesome.com/347692fd4f.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-<script src="./assets/javascript/script.js"></script>
+         <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div>
+         <div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div>
+         <div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div>
+         <div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
+    </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/347692fd4f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+        crossorigin="anonymous"></script>
+    <script src="./assets/javascript/script.js"></script>
 </body>
 </html>
