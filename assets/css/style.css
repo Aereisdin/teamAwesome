@@ -238,6 +238,9 @@ a:visited {
 .accordion a:hover {
     background-color: tomato;
 }
+.accordion-content li {
+    background-color: #444;
+}
 .accordion-content {
     background-color: #444;
     color: white;
@@ -293,7 +296,7 @@ a:visited {
 }
 .codeLang {
   background-color: rgb(56, 209, 212);
-  height: 300px;
+  height: fit-content;
   color: white;
   font-size: 36pt;
 }
