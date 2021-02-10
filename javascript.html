@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="grid-container fluid">
+    <main class="grid-container fluid">
         <section class="grid-x align-top align-spaced languagePresentJS">
             <div class="card small-3 HTML cell cardJS">
                 <br>
@@ -86,7 +86,7 @@
                 </div>
             </a>
             <!-- Basics info -->
-            <section class="card-section basics-section">
+            <div class="card-section basics-section">
                 <br>
                 <dt><strong>Variables</strong> - Different ways to create a variable
                     <a id="basics1-answer-button" class="button success small basics1" style="margin: 10px;" onclick="ShowAndHide('basics1-answer')">Show Answer</a>
@@ -118,7 +118,7 @@
                     </span>
                 </dt>
 
-            </section>
+            </div>
 
             <!-- Callout which shows some helpful tip -->
             <!-- <div class="callout warning small cell" data-closable>
@@ -133,7 +133,7 @@
         <!-- Arrays section -->
         <section class="grid-x align-spaced arrays-div">
             <!-- Arrays info -->
-            <section class="card-section arrays-section">
+            <div class="card-section arrays-section">
                 <code>var array = [ "hello", "world", 1, true, "Team Awesome is the best!" ]</code><br><br>
                 <dt>What is the size of this array?
                     <a id="answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('answer1')">Show Answer</a>
@@ -153,7 +153,7 @@
                     <span class="answers" id="answer3" style="display: none;">Using a <strong>for-loop</strong></span>
                 </dt>
 
-            </section>
+            </div>
             <!-- Arrays card -->
             <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays" target="_blank">
                 <div class="card medium-3 cell align-right arrays-card">
@@ -189,7 +189,7 @@
                 </div>
             </a>
             <!-- Functions info -->
-            <section class="card-section functions-section">
+            <div class="card-section functions-section">
                 <br>
                 <dt>What is scope?
                     <a id="functions-answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('functions-answer1')">Show Answer</a>
@@ -212,7 +212,7 @@
                     <br>
                     <span class="answers" id="functions-answer3" style="display: none;">Parameters act as variables inside the method. Information can be passed to methods as parameter.</span>
                 </dt>
-            </section>
+            </div>
         </section>
 
 
@@ -275,7 +275,7 @@
         </section>
 
         <!-- Dog Image Generator -->
-        <div class="grid-x align-spaced catchy">
+        <section class="grid-x align-spaced catchy">
             <div class="small align-self-middle">
                 <p class="H2">Dog Image Generator</p>
             </div>
@@ -285,12 +285,12 @@
                 <button type="button" class="catchyB button dogButtons" id="houndButton" value="samoyed">Samoyed</button>
                 <button type="button" class="catchyB button dogButtons" id="houndButton" value="pomeranian">Pomeranian</button>
             </div>
-        </div>
+        </section>
 
         <!-- Additional JavaScript resources -->
-        <div class="grid-x align-spaced showcaseJs">
+        <section class="grid-x align-spaced showcaseJs">
             <div class="card cell showPicJs medium-5 align-center"><img class="placeholderFrontJs" src="./assets/images/javascript-resources-pic.jpg"></div>
-            <section class="cell showWord medium-3 javascript-resources">
+            <div class="cell showWord medium-3 javascript-resources">
                 <br>
                 <p class="H2">Additional Resources</p>
                 <li>
@@ -303,15 +303,15 @@
                     <a href="https://jsbooks.revolunet.com/" target="_blank" title="Free JavaScript Books">Books on JavaScript</a>
                 </li>
                 <br>
-            </section>
-        </div>
+            </div>
+        </section>
 
 
         <footer class="grid-x text-center align-center align-middle codeLang">
             <div class="text-center small-12">This is a project that was completed by these up and coming Full Stack Engineers </div>
             <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div><div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div><div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div><div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
         </footer>
-    </div>
+    </main>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
