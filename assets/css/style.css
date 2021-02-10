@@ -351,6 +351,12 @@ a:visited {
   font-weight: bold;
   color: #5552f8;
 }
+.referenceList{
+    text-decoration: underline;
+}
+.referenceList:hover{
+    color: #5552f8;
+}
 .basics-div,
 .arrays-div,
 .functions-div {
