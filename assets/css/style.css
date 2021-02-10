@@ -79,6 +79,7 @@ a:visited {
   text-shadow: 6px 6px 20px #222;
   z-index: 1;
 }
+
 .line1 {
   font-size: 42pt;
 }
@@ -150,6 +151,7 @@ a:visited {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  z-index: 1;
 }
 .htmlPresent {
   height: fit-content;
@@ -456,4 +458,21 @@ a:visited {
 }
 .cardTabContent {
   text-align: unset;
+  background-color: #333;
+}
+
+.tabsJs {
+  background-color: #333;
+}
+.tabsJs a:hover {
+  color: #f4f74e;
+  background-color: orange;
+}
+.tabsInfo {
+  background-color: #333;
+
+}
+
+.tabsInfo li {
+  background-color: unset;
 }

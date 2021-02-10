@@ -45,7 +45,7 @@
                 <a href="hypertext.html"><img src="./assets/images/htmllogo.png" alt="html" id="htm-img" class="langImg"></a>
                 <br>
                 <p>
-                    HTML is COOL!
+                    Structuring a Website
                 </p>
                 <br>
             </div>
@@ -55,7 +55,7 @@
                 <a href="css.html"><img src="./assets/images/csslogo.png" alt="css" id="css-img" class="langImg"></a>
                 <br>
                 <p>
-                    CSS is great!
+                    Adding Style to Structure
                 </p>
                 <br>
             </div>
@@ -65,7 +65,7 @@
                 <a href="javascript.html"><img src="./assets/images/jslogo.png" alt="javascript" id="javascript-img" class="langImg"></a>
                 <br>
                 <p>
-                    Javascript is tough...
+                    Engineering the Fun
                 </p>
                 <br>
             </div>
@@ -220,16 +220,16 @@
         <div class="grid-x align-spaced tutorialDiv">
             <div class="card cardTabs cell medium-3 align-left">
                 <ul class="vertical tabs" data-tabs id="tutorial-tabs">
-                    <li class="tabs-title is-active"><a href="#homePanel" aria-selected="true">Tutorial for Dog API</a></li>
-                    <li class="tabs-title"><a href="#step1Panel">Step 1</a></li>
-                    <li class="tabs-title"><a href="#step2Panel">Step 2</a></li>
-                    <li class="tabs-title"><a href="#step3Panel">Step 3</a></li>
+                    <li class="tabsJs tabs-title is-active"><a href="#homePanel" aria-selected="true">Tutorial for Dog API</a></li>
+                    <li class="tabsJs tabs-title"><a href="#step1Panel">Step 1</a></li>
+                    <li class="tabsJs tabs-title"><a href="#step2Panel">Step 2</a></li>
+                    <li class="tabsJs tabs-title"><a href="#step3Panel">Step 3</a></li>
                 </ul>
             </div>
 
             <div class="card cardTabContent cell medium-8">
                 <div class="tabs-content vertical" data-tabs-content="tutorial-tabs">
-                    <div class="tabs-panel is-active" id="homePanel">
+                    <div class="tabs-panel tabsInfo is-active" id="homePanel">
                         <p>Follow along with this simple 3 step tutorial!</p>
                         <p>In order to use Dog API we need to understand what is going on first.</p>
                         <p class="H2">Purpose</p>
@@ -241,7 +241,7 @@
                         <li>We also need at least one button that will initiate the image generation</li>
                     </div>
 
-                    <div class="tabs-panel" id="step1Panel">
+                    <div class="tabs-panel tabsInfo" id="step1Panel">
                         <p class="H2">Grab the image element, and button(s) from the HTML</p>
                         <li>This will allow us to load a picture by editing the src attribute of that image element.</li>
                         <p class="notice">**Notice how I also created a variable called url which holds part of the dog api URL**</p>
@@ -250,7 +250,7 @@
                         <img src="./assets/images/dog-api-step1.png" alt="Step 1" id="step1-image" style="display: none;">
                     </div>
 
-                    <div class="tabs-panel" id="step2Panel">
+                    <div class="tabs-panel tabsInfo" id="step2Panel">
                         <p class="H2">Create an event listener for the button(s)</p>
                         <li>In order for our buttons to actually do anything, we need to add an "click" event</li>
                         <p class="notice">**Notice how we created a loop since we grabbed ALL buttons of a class from Step 1**</p>
@@ -259,7 +259,7 @@
                         <img src="./assets/images/dog-api-step2.png" alt="Step 2" id="step2-image" style="display: none;">
                     </div>
 
-                    <div class="tabs-panel" id="step3Panel">
+                    <div class="tabs-panel tabsInfo" id="step3Panel">
                         <p class="H2">Fetch the dog image and load it into our empty image element</p>
                         <li>Retrieve the dog type from the button value, append that piece of data to our url</li>
                         <p class="notice">**Notice how there is also other text added for the url**</p>
