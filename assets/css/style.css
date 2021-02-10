@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Dosis';
-  src: url('dosis-variablefont_wght-webfont.woff2') format('woff2'),
-       url('dosis-variablefont_wght-webfont.woff') format('woff');
+  font-family: "Dosis";
+  src: url("dosis-variablefont_wght-webfont.woff2") format("woff2"),
+    url("dosis-variablefont_wght-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -128,7 +128,7 @@ a:visited {
   color: white;
 }
 .cssVids {
-	height: 250px;
+  height: 250px;
 }
 .heroJS {
   background-image: url(../images/javascript-background-image.png);
@@ -248,8 +248,7 @@ a:visited {
   padding: 10%, 10%, 10%, 10%;
 }
 .showPicJs {
-    
-	height: fit-content;
+  height: fit-content;
 }
 .catchy {
   background-color: rgb(203, 61, 194);
@@ -279,6 +278,14 @@ a:visited {
   height: 300px;
   color: white;
   font-size: 36pt;
+}
+.hyperLang {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(56, 209, 212);
+  height: 300px;
+  color: white;
+  font-size: 22pt;
 }
 .cardJS {
   color: black;
@@ -347,50 +354,54 @@ a:visited {
 }
 
 /* font for the "show answers" text */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
 
 .answers {
-	font-family: 'Source Code Pro', monospace;
-	font-size: 12pt;
-	font-weight: lighter;
-	border-style: ridge;
+  font-family: "Source Code Pro", monospace;
+  font-size: 12pt;
+  font-weight: lighter;
+  border-style: ridge;
 }
 
 .javascript-resources a:hover {
-	font-weight: bold;
-	color: #f4f74e;
+  font-weight: bold;
+  color: #f4f74e;
 }
 
 .functions-section a:hover {
-	font-weight: bold;
-	color: #e202d7;
+  font-weight: bold;
+  color: #e202d7;
 }
 .job-search {
-	background-color: rgb(56, 209, 212);
+  background-color: rgb(56, 209, 212);
 }
 .search-info {
-	display: flex;
+
+  display: flex;
 }
 .codeLang {
-    background-color: rgb(56, 209, 212);
-    height: 100px;
-    color: rgb(26, 125, 126);
-    font-size: 20pt;
-  }
+  background-color: rgb(56, 209, 212);
+  height: 100px;
+  color: rgb(26, 125, 126);
+  font-size: 20pt;
+}
 .codeLang div {
-      font-size: 24pt;
-  }
+  font-size: 24pt;
+}
 .codeLang a:hover {
-      background-color: #4340e4;
-      color: white;
-  }
+  background-color: #4340e4;
+  color: white;
+}
 .codeLang a {
-      color: rgb(26, 125, 126);
-  }
-  
+  color: rgb(26, 125, 126);
+}
 
 .dogButtonsDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.tidBit {
+  text-align: center;
+}
+
