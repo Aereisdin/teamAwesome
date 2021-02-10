@@ -470,4 +470,9 @@ a:visited {
 }
 .tabsInfo {
   background-color: #333;
+
+}
+
+.tabsInfo li {
+  background-color: unset;
 }
