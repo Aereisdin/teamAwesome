@@ -46,4 +46,6 @@ const loadPicture = (dogType) => {
 
 ;}
 
+// This will load the tabs using foundation
+$(document).foundation();
 
