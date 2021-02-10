@@ -196,6 +196,12 @@ a:visited {
   text-align: center;
   font-size: 22pt;
 }
+.showcaseJs {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: white;
+    font-size: 24pt;
+}
 .showcase {
   height: fit-content;
   margin: 10%, 10%, 10%, 10%;
@@ -228,6 +234,7 @@ a:visited {
   list-style-position: inside;
   padding-left: 10%;
 }
+
 .placeholderFront {
   margin-bottom: 25px;
 }
@@ -365,11 +372,11 @@ a:visited {
   font-weight: bold;
   color: #e202d7;
 }
-
 .job-search {
   background-color: rgb(56, 209, 212);
 }
 .search-info {
+
   display: flex;
 }
 .codeLang {
@@ -397,3 +404,4 @@ a:visited {
 .tidBit {
   text-align: center;
 }
+
