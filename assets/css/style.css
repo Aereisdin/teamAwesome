@@ -196,6 +196,12 @@ a:visited {
   text-align: center;
   font-size: 22pt;
 }
+.showcaseJs {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: white;
+    font-size: 24pt;
+}
 .showcase {
   height: fit-content;
   margin: 10%, 10%, 10%, 10%;
@@ -228,6 +234,7 @@ a:visited {
   list-style-position: inside;
   padding-left: 10%;
 }
+
 .placeholderFront {
   margin-bottom: 25px;
 }
@@ -241,6 +248,7 @@ a:visited {
   padding: 10%, 10%, 10%, 10%;
 }
 .showPicJs {
+    
 	height: fit-content;
 }
 .catchy {
@@ -357,36 +365,31 @@ a:visited {
 	font-weight: bold;
 	color: #e202d7;
 }
-
-
-
-
 .job-search {
 	background-color: rgb(56, 209, 212);
 }
 .search-info {
 	display: flex;
 }
-    f
-  .codeLang {
+.codeLang {
     background-color: rgb(56, 209, 212);
     height: 100px;
     color: rgb(26, 125, 126);
     font-size: 20pt;
   }
-  .codeLang div {
+.codeLang div {
       font-size: 24pt;
   }
-  .codeLang a:hover {
+.codeLang a:hover {
       background-color: #4340e4;
       color: white;
   }
-  .codeLang a {
+.codeLang a {
       color: rgb(26, 125, 126);
   }
   
 
-  .dogButtonsDiv {
+.dogButtonsDiv {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
