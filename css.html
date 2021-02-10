@@ -4,15 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CSS Dev Redemption</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" 
+    integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
 <link rel="stylesheet" href="./assets/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-     
     <nav class="top-bar align-top nav curve">
         <div class="top-bar-left nav">
-            <div class="top-bar-title"><a href="index.html"><div class="navbutton">Web Dev Redemption</div></a></div>
+            <div class="top-bar-title"><ul class="menu"><li><a href="index.html"><div class="navbutton">Web Dev Redemption</div></a></li></ul></div>
         </div>
         <div name="top" class="top-bar-right nav">   
             <ul class="vertical medium-horizontal menu nav">
@@ -22,7 +22,6 @@
             </ul>
         </div>
     </nav> 
-
     <!-- This displays the hero image, headline, and subhead at top of page. -->
     <div class="heroCss">
         <div class="heroTextCss">
@@ -30,29 +29,26 @@
             <p class="line2">Adding Style to Structure</p>
         </div>
     </div>
-    
     <!-- This section provides the top 3 resources on the CSS page.  -->
-    <div class="grid-x align-top align-spaced cssPresent">
-        <div class="cell langBlurb small-3 grid-y">
+    <main class="grid-container fluid">
+    <section class="grid-x align-top align-spaced cssPresent">
+        <div class="cell langBlurb medium-3 grid-y">
             <iframe  src="https://www.youtube.com/embed/jNwCMTQ9ico" frameborder="0"  class="cssVids" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="H2">Start Here</p>
             <p>Do yourself a favor and watch this introductory video by Colt Steele. It's part of a series geared toward beginners that provides an explanation of how HTML and CSS are related and gets you started on selecting and styling your HTML elements.</p>
         </div>
-        
-        <div class="cell langBlurb small-3 grid-y">
+        <div class="cell langBlurb medium-3 grid-y">
             <a href="https://blog.codeanalogies.com/?s=css" target="_blank"><img class="langPic" src="./assets/images/codeanalogieslogo.png"></a>
             <p class="H2">CodeAnalogies Blog</p>
             <p>Who doesn't love a good analogy for explaining how things work? This blog uses visual tutorials to teach coding concepts, including floats, positioning, and the CSS box model. Select the image above to check it out.</p>
         </div>
-        
-        <div class="cell langBlurb small-3 grid-y">
+        <div class="cell langBlurb medium-3 grid-y">
             <iframe src="https://www.youtube.com/embed/qj20o5UQ3qI" frameborder="0" class="cssVids" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="H2">CSS Selectors</p>
             <p>Another great video by Colt Steele. This time he gives a basic tutorial on how to use CSS selectors to target items in your HTML document and then modify the properties of those items.</p>
         </div>
-    </div>
-
-    <div class="grid-x align-top align-spaced showcase">
+    </section>
+    <section class="grid-x align-top align-spaced showcase">
         <div class="cell showPic small-5">
             <img class="placeholderFront" src="./assets/images/bookshelf.jpg" >
         </div>
@@ -62,7 +58,8 @@
                 <div class="grid-x align-top align spaced">
                     <div class="cell small-6 referenceList">
                         <ul>
-                            <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank">CSS Basics (MDN Web Docs)</a></li>
+                            <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics" target="_blank">
+                                CSS Basics (MDN Web Docs)</a></li>
                             <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorial (w3schools)</a></li>
                             <li><a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">Selector Reference (w3schools)</a></li>
                         </ul>
@@ -76,9 +73,9 @@
                     </div>
                 </div>
         </div>
-    </div>
-
-    <div class="grid-x align-spaced catchy">
+    </section>
+    <!-- This section displays a collection of links to code snippets. -->
+    <section class="grid-x align-spaced catchy">
         <div class="cell medium-4 align-self-middle">
           <p class="H2">CSS Code Snippets</p>
           <p><a href="https://www.30secondsofcode.org/" class="referenceList">30 seconds of code</a> has a great Github repository of CSS snippets. Select a link to view the code associated with a specific example, or use the shuffle button to get a new set of snippets.</p>
@@ -90,25 +87,70 @@
         <div class="call medium-2 align-self-middle">
           <button type="button" class="catchyB button" id="shuffle">Shuffle</button>
         </div>
-    </div>
-
-    <div class="grid-x align-center align-middle example"><p>Example</p>
-        <div class="cell medium-12">&nbsp;</div>
-        <div class="cell medium-5">&nbsp;</div>
-        <div class="cell medium-2 demoSpace">Codepen</div>
-        <div class="cell medium-5">&nbsp;</div>
-        <div class="cell medium-12">&nbsp;</div>
-    </div>
+    </section>
+    <!-- This section is for CSS puns at the bottom of the page.  -->
+    <section class="grid-x align-center align-spaced example">
+        <div class="cell medium-12 align-self-middle">
+        <p class="H2" style="text-align: center;">A Little Humor for the Road</p>
+        </div>
+        <div class="cell medium-3 align-self-middle">
+          <div class="card">
+            <div class="card-section">
+                <p>#titanic {&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                <br>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;float: none;
+                <br>}&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell medium-3 align-self-middle">
+          <div class="card">
+            <div class="card-section">
+                <p>#big-bang::before {&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                <br>content: " ";
+                <br>}&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell medium-3 align-self-middle">
+          <div class="card">
+            <div class="card-section">
+                <p>#muscles {&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;
+                <br>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;display: flex;
+                <br>}&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+                    &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell medium-11 align-self-middle">
+          <p style="text-align:right; font-size: small;">Puns courtesy of <a href="https://digitalsynopsis.com/design/34-css-puns-web-design-funny-jokes/" 
+            target="_blank" style="text-decoration: underline;">Digital Synopsis</a></p>
+        </div>
+    </section>
     <footer class="grid-x text-center align-center align-middle codeLang">
         <div class="text-center small-12">This is a project that was completed by these up and coming Full Stack Engineers </div>
-         <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div><div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div><div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div><div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
-</footer>
-
-    
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://kit.fontawesome.com/347692fd4f.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-<script src="./assets/javascript/css.js"></script>
+        <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div>
+        <div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div>
+        <div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div>
+        <div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
+    </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/347692fd4f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" 
+        crossorigin="anonymous"></script>
+    <script src="./assets/javascript/css.js"></script>
 </body>
 </html>
