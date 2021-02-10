@@ -12,12 +12,11 @@
      
     <nav class="top-bar align-top nav curve">
         <div class="top-bar-left nav">
-            <div class="top-bar-title">Web Dev Redemption</div>
+            <div class="top-bar-title"><a href="index.html"><div class="navbutton">Web Dev Redemption</div></a></div>
         </div>
         <div name="top" class="top-bar-right nav">   
             <ul class="vertical medium-horizontal menu nav">
-                <li><a href="index.html"><div class="navbutton">Home</div></a></li>
-                <li><a href="hypertext.html"><div class="navbutton">Hypertext</div></a></li>
+                <li><a href="hypertext.html"><div class="navbutton">HTML</div></a></li>
                 <li><a href="css.html"><div class="navbutton">CSS</div></a></li>
                 <li><a href="javascript.html"><div class="navbutton">JavaScript</div></a></li>
             </ul>
@@ -35,7 +34,7 @@
     <!-- This section provides the top 3 resources on the CSS page.  -->
     <div class="grid-x align-top align-spaced cssPresent">
         <div class="cell langBlurb small-3 grid-y">
-            <iframe  src="https://www.youtube.com/embed/jNwCMTQ9ico" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/jNwCMTQ9ico" frameborder="0"  class="cssVids" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="H2">Start Here</p>
             <p>Do yourself a favor and watch this introductory video by Colt Steele. It's part of a series geared toward beginners that provides an explanation of how HTML and CSS are related and gets you started on selecting and styling your HTML elements.</p>
         </div>
@@ -47,7 +46,7 @@
         </div>
         
         <div class="cell langBlurb small-3 grid-y">
-            <iframe src="https://www.youtube.com/embed/qj20o5UQ3qI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/qj20o5UQ3qI" frameborder="0" class="cssVids" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p class="H2">CSS Selectors</p>
             <p>Another great video by Colt Steele. This time he gives a basic tutorial on how to use CSS selectors to target items in your HTML document and then modify the properties of those items.</p>
         </div>
@@ -80,9 +79,19 @@
     </div>
 
     <div class="grid-x align-spaced catchy">
-        <div class="cell medium-8 align-self-middle"><p class="H2">Catchy Heading to Entice!!!</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut metus eleifend, auctor neque at, tincidunt ipsum. Integer blandit vestibulum erat, ac fringilla nibh sodales ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut metus eleifend, auctor neque at, tincidunt ipsum. Integer blandit vestibulum erat, ac fringilla nibh sodales ac.</p></div>
-        <div class="call medium-2 align-self-bottom"><button type="button" class="catchyB button">Button</button></div>
+        <div class="cell medium-4 align-self-middle">
+          <p class="H2">CSS Code Snippets</p>
+          <p><a href="https://www.30secondsofcode.org/" class="referenceList">30 seconds of code</a> has a great Github repository of CSS snippets. Select a link to view the code associated with a specific example, or use the shuffle button to get a new set of snippets.</p>
+        </div>
+        <div class="cell medium-4 align-self-middle">
+          <ul class="snippets">
+          </ul>
+        </div>
+        <div class="call medium-2 align-self-middle">
+          <button type="button" class="catchyB button" id="shuffle">Shuffle</button>
+        </div>
     </div>
+
     <div class="grid-x align-center align-middle example"><p>Example</p>
         <div class="cell medium-12">&nbsp;</div>
         <div class="cell medium-5">&nbsp;</div>
@@ -90,14 +99,16 @@
         <div class="cell medium-5">&nbsp;</div>
         <div class="cell medium-12">&nbsp;</div>
     </div>
-    <div class="grid-x align-center align-top codeLang">
-        <div class="cell text-center medium-12">Languages</div>
-    </div>
+    <footer class="grid-x text-center align-center align-middle codeLang">
+        <div class="text-center small-12">This is a project that was completed by these up and coming Full Stack Engineers </div>
+         <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div><div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div><div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div><div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
+</footer>
+
     
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/347692fd4f.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-<script src="./assets/javascript/script.js"></script>
+<script src="./assets/javascript/css.js"></script>
 </body>
 </html>
