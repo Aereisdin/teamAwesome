@@ -218,12 +218,29 @@ a:visited {
   background-color: #222;
   border: none;
 }
+.tabs-title a {
+    font-size: 24pt;
+}
 .tabs-title {
   background-color: #4340e4;
+}
+.tabs-title a:hover {
+    color:tomato;
 }
 .tabs-panel {
   background-color: #444;
   color: white;
+}
+.accordion a {
+    font-size: 22pt;
+    background-color: #4340e4;
+}
+.accordion a:hover {
+    background-color: tomato;
+}
+.accordion-content {
+    background-color: #444;
+    color: white;
 }
 #vsc {
   height: 600px;
