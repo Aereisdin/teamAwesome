@@ -12,7 +12,7 @@
 
     <nav class="top-bar align-top nav curve">
         <div class="top-bar-left nav">
-            <div class="top-bar-title"><a href="index.html"><div class="navbutton">Web Dev Redemption</div></a></div>
+            <div class="top-bar-title"><ul class="menu"><li><a href="index.html"><div class="navbutton">Web Dev Redemption</div></a></li></ul></div>
         </div>
         <div name="top" class="top-bar-right nav">   
             <ul class="vertical medium-horizontal menu nav">
@@ -37,220 +37,281 @@
         </div>
     </div>
 
+    <div class="grid-container fluid">
+        <section class="grid-x align-top align-spaced languagePresentJS">
+            <div class="card small-3 HTML cell cardJS">
+                <br>
 
-    <div class="grid-x align-top align-spaced languagePresent">
-        <div class="card small-3 HTML cell cardJS">
-            <br>
-
-            <a href="hypertext.html"><img src="./assets/images/htmllogo.png" alt="html" id="htm-img" class="langImg"></a>
-            <br>
-            <p>
-                Structuring a Website
-            </p>
-            <br>
-        </div>
-
-        <div class="card small-3 CSS cell cardJS">
-            <br>
-            <a href="css.html"><img src="./assets/images/csslogo.png" alt="css" id="css-img" class="langImg"></a>
-            <br>
-            <p>
-                Adding Style to Structure
-            </p>
-            <br>
-        </div>
-
-        <div class="card small-3 JAVASCRIPT cell cardJS">
-            <br>
-            <a href="javascript.html"><img src="./assets/images/jslogo.png" alt="javascript" id="javascript-img" class="langImg"></a>
-            <br>
-            <p>
-                Engineering the Fun
-            </p>
-            <br>
-        </div>
-
-    </div>
-
-    <!-- Basics section -->
-    <div class="grid-x align-spaced basics-div">
-        <!--  Basics card -->
-        <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">
-            <div class="card medium-3 cell basics-card">
-                <div class="card-divider align-center card-title">
-                    <p><strong>JavaScript Basics</strong></p>
-                </div>
-                <div class="card-section basics-section">
-                    <p id="basics-text">If you master these fundamentals, you have a head start on coding in other languages too!</p>
-                </div>
+                <a href="hypertext.html"><img src="./assets/images/htmllogo.png" alt="html" id="htm-img" class="langImg"></a>
+                <br>
+                <p>
+                    Structuring a Website
+                </p>
+                <br>
             </div>
-        </a>
-        <!-- Basics info -->
-        <section class="card-section basics-section">
-            <br>
-            <dt><strong>Variables</strong> - Different ways to create a variable
-                <a id="basics1-answer-button" class="button success small basics1" style="margin: 10px;" onclick="ShowAndHide('basics1-answer')">Show Answer</a>
-                <br>
-                <span class="answers" id="basics1-answer" style="display: none;">
-                    <code>let = myVariable</code>
-                    <code>var = myVariable</code>
-                    <code>const = myVariable</code>
-                </span>
-            </dt>
 
-            <dt><strong>Operators</strong> - Use these to manipulate and compare data
-                <a id="basics2-answer-button" class="button success small basics2" style="margin: 10px;" onclick="ShowAndHide('basics2-answer')">Show Answer</a>
+            <div class="card small-3 CSS cell cardJS">
                 <br>
-                <span class="answers" id="basics2-answer" style="display: none;">
-                    <code>+ - * /</code>
-                    <code>= == ===</code>
-                    <code>! != !==</code>
-                </span>
-            </dt>
-
-
-            <dt><strong>If-Else</strong> - Conditional statements
-                <a id="basics3-answer-button" class="button success small basics3" style="margin: 10px;" onclick="ShowAndHide('basics3-answer')">Show Answer</a>
+                <a href="css.html"><img src="./assets/images/csslogo.png" alt="css" id="css-img" class="langImg"></a>
                 <br>
-                <span class="answers" id="basics3-answer" style="display: none;">
-                    <code>if (condition) { write your code here; }</code> <br>
-                    <code>else { otherwise do this code; }</code>
-                </span>
-            </dt>
+                <p>
+                    Adding Style to Structure
+                </p>
+                <br>
+            </div>
+
+            <div class="card small-3 JAVASCRIPT cell cardJS">
+                <br>
+                <a href="javascript.html"><img src="./assets/images/jslogo.png" alt="javascript" id="javascript-img" class="langImg"></a>
+                <br>
+                <p>
+                    Engineering the Fun
+                </p>
+                <br>
+            </div>
 
         </section>
 
-        <!-- Callout which shows some helpful tip -->
-        <!-- <div class="callout warning small cell" data-closable>
-            <p id="basics-callout cell">Did you know? All major web browsers have a built-in JavaScript engine that executes the code on the user's device.</p>
-            <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div> -->
-    </div>
-
-
-    <!-- Arrays section -->
-    <div class="grid-x align-spaced arrays-div">
-        <!-- Arrays info -->
-        <section class="card-section arrays-section">
-            <code>var array = [ "hello", "world", 1, true, "Team Awesome is the best!" ]</code><br><br>
-            <dt>What is the size of this array?
-                <a id="answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('answer1')">Show Answer</a>
-                <br>
-                <span class="answers" id="answer1" style="display: none;">The size of this array is <strong>5</strong></span>
-            </dt>
-
-            <dt>What does <code>array[1]</code> contain?
-                <a id="answer2-button" class="button success small answer2" style="margin: 10px;" onclick="ShowAndHide('answer2')">Show Answer</a>
-                <br>
-                <span class="answers" id="answer2" style="display: none;">It contains the string <strong>"world"</strong></span>
-            </dt>
-
-            <dt>What the most common way to iterate through this array?
-                <a id="answer3-button" class="button success small answer3" style="margin: 10px;" onclick="ShowAndHide('answer3')">Show Answer</a>
-                <br>
-                <span class="answers" id="answer3" style="display: none;">Using a <strong>for-loop</strong></span>
-            </dt>
-
-        </section>
-        <!-- Arrays card -->
-        <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays" target="_blank">
-            <div class="card medium-3 cell align-right arrays-card">
-                <div class="card-divider align-center card-title">
-                    <p><strong>JavaScript Arrays</strong></p>
+        <!-- Basics section -->
+        <section class="grid-x align-spaced basics-div">
+            <!--  Basics card -->
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">
+                <div class="card medium-3 cell basics-card">
+                    <div class="card-divider align-center card-title">
+                        <p><strong>JavaScript Basics</strong></p>
+                    </div>
+                    <div class="card-section basics-section">
+                        <p id="basics-text">If you master these fundamentals, you have a head start on coding in other languages too!</p>
+                    </div>
                 </div>
-                <div class="card-section arrays-section">
-                    <p id="arrays-text">Arrays (also known as lists) are used to store data!</p>
-                </div>
-            </div>
-        </a>
-
-        <!-- Callout which shows a tip about Arrays -->
-        <!-- <div class="callout warning small cell" data-closable>
-            <p id="basics-callout">Do you know there is more than one way that you can access the data in an array?</p>
-            <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div> -->
-    </div>
-
-    <!-- Functions section -->
-    <div class="grid-x align-spaced functions-div">
-        <!-- Functions card -->
-        <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions" target="_blank">
-            <div class="card medium-3 cell functions-card">
-                <div class="card-divider align-center card-title">
-                    <p>JavaScript Functions</p>
-                </div>
-                <div class="card-section functions-section">
-                    <p id="functions-text">It's good practice to have a function for each task rather than multiple tasks in one function!</p>
-                </div>
-            </div>
-        </a>
-        <!-- Functions info -->
-        <section class="card-section functions-section">
-            <br>
-            <dt>What is scope?
-                <a id="functions-answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('functions-answer1')">Show Answer</a>
+            </a>
+            <!-- Basics info -->
+            <section class="card-section basics-section">
                 <br>
-                <span class="answers" id="functions-answer1" style="display: none;">
-                    The variables and other things defined inside the function are inside their own separate <strong>scope</strong>.
+                <dt><strong>Variables</strong> - Different ways to create a variable
+                    <a id="basics1-answer-button" class="button success small basics1" style="margin: 10px;" onclick="ShowAndHide('basics1-answer')">Show Answer</a>
                     <br>
-                    Click <a href="https://www.tutorialsteacher.com/javascript/scope-in-javascript" target="_blank">here</a> for more information about scope. 
-                </span>
-            </dt>
+                    <span class="answers" id="basics1-answer" style="display: none;">
+                        <code>let = myVariable</code>
+                        <code>var = myVariable</code>
+                        <code>const = myVariable</code>
+                    </span>
+                </dt>
 
-            <dt>Why do we use functions?
-                <a id="functions-answer2-button" class="button success small answer2" style="margin: 10px;" onclick="ShowAndHide('functions-answer2')">Show Answer</a>
-                <br>
-                <span class="answers" id="functions-answer2" style="display: none;">We use functions when we need to use the same code multiple times, it makes a programmer's life so much easier.</span>
-            </dt>
+                <dt><strong>Operators</strong> - Use these to manipulate and compare data
+                    <a id="basics2-answer-button" class="button success small basics2" style="margin: 10px;" onclick="ShowAndHide('basics2-answer')">Show Answer</a>
+                    <br>
+                    <span class="answers" id="basics2-answer" style="display: none;">
+                        <code>+ - * /</code>
+                        <code>= == ===</code>
+                        <code>! != !==</code>
+                    </span>
+                </dt>
 
-            <dt>What is a parameter?
-                <a id="functions-answer3-button" class="button success small answer3" style="margin: 10px;" onclick="ShowAndHide('functions-answer3')">Show Answer</a>
-                <br>
-                <span class="answers" id="functions-answer3" style="display: none;">Parameters act as variables inside the method. Information can be passed to methods as parameter.</span>
-            </dt>
+
+                <dt><strong>If-Else</strong> - Conditional statements
+                    <a id="basics3-answer-button" class="button success small basics3" style="margin: 10px;" onclick="ShowAndHide('basics3-answer')">Show Answer</a>
+                    <br>
+                    <span class="answers" id="basics3-answer" style="display: none;">
+                        <code>if (condition) { write your code here; }</code> <br>
+                        <code>else { otherwise do this code; }</code>
+                    </span>
+                </dt>
+
+            </section>
+
+            <!-- Callout which shows some helpful tip -->
+            <!-- <div class="callout warning small cell" data-closable>
+                <p id="basics-callout cell">Did you know? All major web browsers have a built-in JavaScript engine that executes the code on the user's device.</p>
+                <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div> -->
         </section>
-    </div>
 
-    <!-- Additional JavaScript resources -->
-    <div class="grid-x align-spaced showcaseJs">
-        <div class="card cell showPicJs medium-5 align-center"><img class="placeholderFrontJs" src="./assets/images/javascript-resources-pic.jpg"></div>
-        <section class="cell showWord medium-3 javascript-resources">
-            <br>
-            <p class="H2">Additional Resources</p>
-            <li>
-                <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" title="CodeAcademy">Introduction to JavaScript</a>
-            </li>
-            <li>
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank"  title="MDN Web Docs">Full JavaScript Guide</a>
-            </li>
-            <li>
-                <a href="https://jsbooks.revolunet.com/" target="_blank" title="Free JavaScript Books">Books on JavaScript (free)</a>
-            </li>
-            <br>
+
+        <!-- Arrays section -->
+        <section class="grid-x align-spaced arrays-div">
+            <!-- Arrays info -->
+            <section class="card-section arrays-section">
+                <code>var array = [ "hello", "world", 1, true, "Team Awesome is the best!" ]</code><br><br>
+                <dt>What is the size of this array?
+                    <a id="answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('answer1')">Show Answer</a>
+                    <br>
+                    <span class="answers" id="answer1" style="display: none;">The size of this array is <strong>5</strong></span>
+                </dt>
+
+                <dt>What does <code>array[1]</code> contain?
+                    <a id="answer2-button" class="button success small answer2" style="margin: 10px;" onclick="ShowAndHide('answer2')">Show Answer</a>
+                    <br>
+                    <span class="answers" id="answer2" style="display: none;">It contains the string <strong>"world"</strong></span>
+                </dt>
+
+                <dt>What the most common way to iterate through this array?
+                    <a id="answer3-button" class="button success small answer3" style="margin: 10px;" onclick="ShowAndHide('answer3')">Show Answer</a>
+                    <br>
+                    <span class="answers" id="answer3" style="display: none;">Using a <strong>for-loop</strong></span>
+                </dt>
+
+            </section>
+            <!-- Arrays card -->
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays" target="_blank">
+                <div class="card medium-3 cell align-right arrays-card">
+                    <div class="card-divider align-center card-title">
+                        <p><strong>JavaScript Arrays</strong></p>
+                    </div>
+                    <div class="card-section arrays-section">
+                        <p id="arrays-text">Arrays (also known as lists) are used to store data!</p>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Callout which shows a tip about Arrays -->
+            <!-- <div class="callout warning small cell" data-closable>
+                <p id="basics-callout">Do you know there is more than one way that you can access the data in an array?</p>
+                <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div> -->
         </section>
-    </div>
 
-    <!-- Dog Image Generator -->
-    <div class="grid-x align-spaced catchy">
-        <div class="small align-self-middle">
-            <p class="H2">Dog Image Generator</p>
-        </div>
-        <img id="dogImg" hidden style="height: 500px; width: 400px;">
-        <div class="cell medium-2 dogButtonsDiv">
-            <button type="button" class="catchyB button dogButtons" id="huskyButton" value="husky">Husky</button>
-            <button type="button" class="catchyB button dogButtons" id="houndButton" value="samoyed">Samoyed</button>
-            <button type="button" class="catchyB button dogButtons" id="houndButton" value="pomeranian">Pomeranian</button>
-        </div>
-    </div>
+        <!-- Functions section -->
+        <section class="grid-x align-spaced functions-div">
+            <!-- Functions card -->
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions" target="_blank">
+                <div class="card medium-3 cell functions-card">
+                    <div class="card-divider align-center card-title">
+                        <p>JavaScript Functions</p>
+                    </div>
+                    <div class="card-section functions-section">
+                        <p id="functions-text">It's good practice to have a function for each task rather than multiple tasks in one function!</p>
+                    </div>
+                </div>
+            </a>
+            <!-- Functions info -->
+            <section class="card-section functions-section">
+                <br>
+                <dt>What is scope?
+                    <a id="functions-answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('functions-answer1')">Show Answer</a>
+                    <br>
+                    <span class="answers" id="functions-answer1" style="display: none;">
+                        The variables and other things defined inside the function are inside their own separate <strong>scope</strong>.
+                        <br>
+                        Click <a href="https://www.tutorialsteacher.com/javascript/scope-in-javascript" target="_blank">here</a> for more information about scope. 
+                    </span>
+                </dt>
 
-    <footer class="grid-x text-center align-center align-middle codeLang">
-        <div class="text-center small-12">This is a project that was completed by these up and coming Full Stack Engineers </div>
-         <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div><div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div><div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div><div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
-    </footer>
+                <dt>Why do we use functions?
+                    <a id="functions-answer2-button" class="button success small answer2" style="margin: 10px;" onclick="ShowAndHide('functions-answer2')">Show Answer</a>
+                    <br>
+                    <span class="answers" id="functions-answer2" style="display: none;">We use functions when we need to use the same code multiple times, it makes a programmer's life so much easier.</span>
+                </dt>
+
+                <dt>What is a parameter?
+                    <a id="functions-answer3-button" class="button success small answer3" style="margin: 10px;" onclick="ShowAndHide('functions-answer3')">Show Answer</a>
+                    <br>
+                    <span class="answers" id="functions-answer3" style="display: none;">Parameters act as variables inside the method. Information can be passed to methods as parameter.</span>
+                </dt>
+            </section>
+        </section>
+
+
+        <!-- How-To for dog API -->
+        <section class="grid-x align-spaced tutorialDiv">
+            <div class="card cardTabs cell medium-3 align-left">
+                <ul class="vertical tabs" data-tabs id="tutorial-tabs">
+                    <li class="tabsJs tabs-title is-active"><a href="#homePanel" aria-selected="true">Tutorial for Dog API</a></li>
+                    <li class="tabsJs tabs-title"><a href="#step1Panel">Step 1</a></li>
+                    <li class="tabsJs tabs-title"><a href="#step2Panel">Step 2</a></li>
+                    <li class="tabsJs tabs-title"><a href="#step3Panel">Step 3</a></li>
+                </ul>
+            </div>
+
+            <div class="card cardTabContent cell medium-8">
+                <div class="tabs-content vertical" data-tabs-content="tutorial-tabs">
+                    <div class="tabs-panel tabsInfo is-active" id="homePanel">
+                        <p>Follow along with this simple 3 step tutorial!</p>
+                        <p>In order to use Dog API we need to understand what is going on first.</p>
+                        <p class="H2">Purpose</p>
+                        <li>We want to generate a random dog image onto the page</li>
+                        <li>We also want to have a few different options of the type of dog to generate</li>
+                        <br>
+                        <p class="H2">Requirements</p>
+                        <li>We need an image element on the HTML page</li>
+                        <li>We also need at least one button that will initiate the image generation</li>
+                    </div>
+
+                    <div class="tabs-panel tabsInfo" id="step1Panel">
+                        <p class="H2">Grab the image element, and button(s) from the HTML</p>
+                        <li>This will allow us to load a picture by editing the src attribute of that image element.</li>
+                        <p class="notice">**Notice how I also created a variable called url which holds part of the dog api URL**</p>
+                        <li>Since in the live example we have mutliple buttons, this tutorial will as well</li>
+                        <a id="step1-image-button" class="button success small step1" style="margin: 10px; margin-left: 5%;" onclick="ShowAndHide('step1-image')">Show Answer</a>
+                        <img src="./assets/images/dog-api-step1.png" alt="Step 1" id="step1-image" style="display: none;">
+                    </div>
+
+                    <div class="tabs-panel tabsInfo" id="step2Panel">
+                        <p class="H2">Create an event listener for the button(s)</p>
+                        <li>In order for our buttons to actually do anything, we need to add an "click" event</li>
+                        <p class="notice">**Notice how we created a loop since we grabbed ALL buttons of a class from Step 1**</p>
+                        <li>Extract the dog type from the button, then call our function which handles process of loading the image</li>
+                        <a id="step2-image-button" class="button success small step2" style="margin: 10px; margin-left: 5%;" onclick="ShowAndHide('step2-image')">Show Answer</a>
+                        <img src="./assets/images/dog-api-step2.png" alt="Step 2" id="step2-image" style="display: none;">
+                    </div>
+
+                    <div class="tabs-panel tabsInfo" id="step3Panel">
+                        <p class="H2">Fetch the dog image and load it into our empty image element</p>
+                        <li>Retrieve the dog type from the button value, append that piece of data to our url</li>
+                        <p class="notice">**Notice how there is also other text added for the url**</p>
+                        <li>Create a fetch request at the url ( this how we communicate with the Dog API )</li>
+                        <li>After the fetch we must return the response.json() before doing anything with the data</li>
+                        <li>The data that is received on our side is an image src link or URL ( needed for seeing the image sent to us )</li>
+                        <p class="notice">**Notice that we are using data.message, this is what the Dog API has sent us back**</p>
+                        <a id="step3-image-button" class="button success small step3" style="margin: 10px; margin-left: 5%;" onclick="ShowAndHide('step3-image')">Show Answer</a>
+                        <img src="./assets/images/dog-api-step3.png" alt="Step 3" id="step3-image" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dog Image Generator -->
+        <div class="grid-x align-spaced catchy">
+            <div class="small align-self-middle">
+                <p class="H2">Dog Image Generator</p>
+            </div>
+            <img id="dogImg" hidden style="height: 500px; width: 400px;">
+            <div class="cell medium-2 dogButtonsDiv">
+                <button type="button" class="catchyB button dogButtons" id="huskyButton" value="husky">Husky</button>
+                <button type="button" class="catchyB button dogButtons" id="houndButton" value="samoyed">Samoyed</button>
+                <button type="button" class="catchyB button dogButtons" id="houndButton" value="pomeranian">Pomeranian</button>
+            </div>
+        </div>
+
+        <!-- Additional JavaScript resources -->
+        <div class="grid-x align-spaced showcaseJs">
+            <div class="card cell showPicJs medium-5 align-center"><img class="placeholderFrontJs" src="./assets/images/javascript-resources-pic.jpg"></div>
+            <section class="cell showWord medium-3 javascript-resources">
+                <br>
+                <p class="H2">Additional Resources</p>
+                <li>
+                    <a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank" title="CodeAcademy">Introduction to JavaScript</a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank"  title="MDN Web Docs">Full JavaScript Guide</a>
+                </li>
+                <li>
+                    <a href="https://jsbooks.revolunet.com/" target="_blank" title="Free JavaScript Books">Books on JavaScript</a>
+                </li>
+                <br>
+            </section>
+        </div>
+
+
+        <footer class="grid-x text-center align-center align-middle codeLang">
+            <div class="text-center small-12">This is a project that was completed by these up and coming Full Stack Engineers </div>
+            <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div><div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div><div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div><div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
+        </footer>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
