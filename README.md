@@ -1,27 +1,56 @@
-# Web Dev Redemption
+# Web Developer Redemption
+![img](https://img.shields.io/github/contributors/Aereisdin/teamAwesome)
+![img](https://img.shields.io/github/languages/count/Aereisdin/teamAwesome)
+![img](https://img.shields.io/github/issues/Aereisdin/teamAwesome)
 
-A collective app that showcases web dev basics with resources and fundamentals.
+## Building as a TEAM
 
-## Resources Showcased
+This is the first group project that our bootcamp cohort worked on together. It was an assignment to create and application in teams of four or so. 
 
-1. HTML
-2. CSS
-3. Vanilla JS
+It was a great experience and we learned so much together! 
 
-## How These Resources Will Be Presented
+Our team members on this Project were:
 
-We plan on breaking down the highly technical into basic info with cited examples.
+[Indervir Singh](https://github.com/indervirsingh)
 
-## User Story
+[Larry Jenkins](https://github.com/larrygjenkins)
 
-As a new developer, I need to find tutorials and examples to help me learn how to build web applications.
+[Matthew Webb](https://github.com/MWebb2321)
 
-## APIs used in this project
+[Kiel Sprague](https://github.com/Aereisdin)
 
-Codepen.io <--- possibly for a visual reference
-GitHub.com <--- for reference
+## Facing Challenges and Moving Forward
 
-## Future Possible Additions
+There are many issues that can come up on a group project. You can find yourself at a loss as to what to create, how to impliment what you wish to make and/or who is in charge of what. Very early on our team dynamic start off smoothly, a team committee working toward consensus.
 
-Jobs <-- Indeed (or other) Api
-Team Awesome is awesome!
+The work was divided fairly equaly and evenly based on time and interest areas.
+
+This being the first time all of us had worked in a group one of the major challenges we faced had to do with overcoming merge conflicts in GitHub. Luckily these types of issues were rare but happened just enough to give us a solid idea on how to deal with them.
+
+## What is Web Dev Redemption?
+
+Web Dev Redemption is an application created to help those brand new developers out there in the world who are just getting started. 
+
+1. Resouces
+2. Everyday Jargon
+3. Working Examples
+
+These are the main ideas that encapsulate what we were striving to create while working within the time criteria given. 
+
+## What is the Vision of the Future?
+
+In an ideal setting we would continue to build out with more resources, working examples and explinations to help the Newbie get going in the right direction with the most current and up-to-date resources needed to have a solid foundation using real world lingo as they adjust to the jargon of the industry.
+
+
+### Screenshot of the Application
+
+![Screenshot](./assets/images/screenshot.png "Site")
+
+# Thank you so very much!
+We are deeply grateful for the opportunities to present our work here and to each other for the work done in providing the vision and implimentation of this application.
+
+Feel free to reach out with any questions, comments or concerns that you may have.
+
+## Link to Application
+
+http://aereisdin.github.io/teamAwesome
