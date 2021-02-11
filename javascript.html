@@ -32,6 +32,25 @@
                 Check it out!
             </p>
         </div>
+    </div>
+
+    <main class="grid-container fluid">
+        <section class="grid-x align-top align-spaced languagePresent">
+            <div class="card medium-3 HTML cell cardJS">
+                <br><a href="hypertext.html"><img src="./assets/images/htmllogo.png" alt="html" id="htm-img" class="langImg"></a><br>
+                <p>Structuring a Website</p><br>
+            </div>
+
+            <div class="card medium-3 CSS cell cardJS">
+                <br><a href="css.html"><img src="./assets/images/csslogo.png" alt="css" id="css-img" class="langImg"></a><br>
+                <p>Adding Style to Structure</p><br>
+            </div>
+
+            <div class="card medium-3 JAVASCRIPT cell cardJS">
+                <br><a href="javascript.html"><img src="./assets/images/jslogo.png" alt="javascript" id="javascript-img" class="langImg"></a><br>
+                <p>Engineering the Fun</p><br>
+            </div>
+
     </section>
     <main class="grid-container fluid">
         <section class="grid-x align-top align-spaced languagePresentJS">
@@ -62,11 +81,10 @@
                 </div>
             </a>
             <!-- Basics info -->
-            <section class="card-section basics-section">
+            <div class="card-section basics-section">
                 <br>
                 <dt><strong>Variables</strong> - Different ways to create a variable
-                    <a id="basics1-answer-button" class="button success small basics1" style="margin: 10px;" onclick="ShowAndHide('basics1-answer')">Show Answer</a>
-                    <br>
+                    <a id="basics1-answer-button" class="button success small basics1" style="margin: 10px;" onclick="ShowAndHide('basics1-answer')">Show Answer</a><br>
                     <span class="answers" id="basics1-answer" style="display: none;">
                         <code>let = myVariable</code>
                         <code>var = myVariable</code>
@@ -74,8 +92,7 @@
                     </span>
                 </dt>
                 <dt><strong>Operators</strong> - Use these to manipulate and compare data
-                    <a id="basics2-answer-button" class="button success small basics2" style="margin: 10px;" onclick="ShowAndHide('basics2-answer')">Show Answer</a>
-                    <br>
+                    <a id="basics2-answer-button" class="button success small basics2" style="margin: 10px;" onclick="ShowAndHide('basics2-answer')">Show Answer</a><br>
                     <span class="answers" id="basics2-answer" style="display: none;">
                         <code>+ - * /</code>
                         <code>= == ===</code>
@@ -83,19 +100,28 @@
                     </span>
                 </dt>
                 <dt><strong>If-Else</strong> - Conditional statements
-                    <a id="basics3-answer-button" class="button success small basics3" style="margin: 10px;" onclick="ShowAndHide('basics3-answer')">Show Answer</a>
-                    <br>
+                    <a id="basics3-answer-button" class="button success small basics3" style="margin: 10px;" onclick="ShowAndHide('basics3-answer')">Show Answer</a><br>
                     <span class="answers" id="basics3-answer" style="display: none;">
-                        <code>if (condition) { write your code here; }</code> <br>
+                        <code>if (condition) { write your code here; }</code><br>
                         <code>else { otherwise do this code; }</code>
                     </span>
                 </dt>
+
+            </div>
+
+            <!-- Callout which shows some helpful tip -->
+            <!-- <div class="callout warning small cell" data-closable>
+                <p id="basics-callout cell">Did you know? All major web browsers have a built-in JavaScript engine that executes the code on the user's device.</p>
+                <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div> -->
             </section>
         </section>
         <!-- Arrays section -->
         <section class="grid-x align-spaced arrays-div">
             <!-- Arrays info -->
-            <section class="card-section arrays-section">
+            <div class="card-section arrays-section">
                 <code>var array = [ "hello", "world", 1, true, "Team Awesome is the best!" ]</code><br><br>
                 <dt>What is the size of this array?
                     <a id="answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('answer1')">Show Answer</a>
@@ -112,6 +138,8 @@
                     <br>
                     <span class="answers" id="answer3" style="display: none;">Using a <strong>for-loop</strong></span>
                 </dt>
+
+            </div>
             </section>
             <!-- Arrays card -->
             <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays" target="_blank">
@@ -139,7 +167,7 @@
                 </div>
             </a>
             <!-- Functions info -->
-            <section class="card-section functions-section">
+            <div class="card-section functions-section">
                 <br>
                 <dt>What is scope?
                     <a id="functions-answer1-button" class="button success small answer1" style="margin: 10px;" onclick="ShowAndHide('functions-answer1')">Show Answer</a>
@@ -161,7 +189,7 @@
                     <br>
                     <span class="answers" id="functions-answer3" style="display: none;">Parameters act as variables inside the method. Information can be passed to methods as parameter.</span>
                 </dt>
-            </section>
+            </div>
         </section>
         <!-- How-To for dog API -->
         <section class="grid-x align-spaced tutorialDiv">
@@ -217,7 +245,7 @@
             </div>
         </section>
         <!-- Dog Image Generator -->
-        <div class="grid-x align-spaced catchy">
+        <section class="grid-x align-spaced catchy">
             <div class="small align-self-middle">
                 <p class="H2">Dog Image Generator</p>
             </div>
@@ -227,11 +255,13 @@
                 <button type="button" class="catchyB button dogButtons" id="houndButton" value="samoyed">Samoyed</button>
                 <button type="button" class="catchyB button dogButtons" id="houndButton" value="pomeranian">Pomeranian</button>
             </div>
+        </section>
+
         </div>
         <!-- Additional JavaScript resources -->
-        <div class="grid-x align-spaced showcaseJs">
+        <section class="grid-x align-spaced showcaseJs">
             <div class="card cell showPicJs medium-5 align-center"><img class="placeholderFrontJs" src="./assets/images/javascript-resources-pic.jpg"></div>
-            <section class="cell showWord medium-3 javascript-resources">
+            <div class="cell showWord medium-3 javascript-resources">
                 <br>
                 <p class="H2">Additional Resources</p>
                 <li>
@@ -244,6 +274,10 @@
                     <a href="https://jsbooks.revolunet.com/" target="_blank" title="Free JavaScript Books">Books on JavaScript</a>
                 </li>
                 <br>
+            </div>
+        </section>
+
+
             </section>
         </div>
         <footer class="grid-x text-center align-center align-middle codeLang">
@@ -251,6 +285,8 @@
             <div class="cell small-3"><a href="https://indervirsingh.github.io/" target="_blank">Indervir Singh</a></div><div class="cell small-3"><a href="#" target="_blank">Matthew Webb</a></div><div class="cell  small-3"><a href="https://larrygjenkins.github.io/" target="_blank">Larry Jenkins</a></div><div class="cell  small-3"><a href="https://aereisdin.github.io/" target="_blank">Kiel Sprague</a></div>
         </footer>
     </main>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/347692fd4f.js" crossorigin="anonymous"></script>
