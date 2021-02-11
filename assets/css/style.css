@@ -150,6 +150,7 @@ a:visited {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  text-shadow: 6px 6px 20px #222;
   z-index: 1;
 }
 .htmlPresent {
